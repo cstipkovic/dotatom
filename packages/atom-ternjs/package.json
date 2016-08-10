@@ -57,8 +57,8 @@
   "homepage": "https://github.com/tststs/atom-ternjs#readme",
   "_id": "atom-ternjs@0.14.2",
   "_shasum": "cf7c15e1e66868c6c2446b53c473de2c0b5dd1c6",
-  "_resolved": "file:../d-116710-12864-blfxu7/package.tgz",
-  "_from": "../d-116710-12864-blfxu7/package.tgz",
+  "_resolved": "file:../d-116710-19282-1u26pty/package.tgz",
+  "_from": "../d-116710-19282-1u26pty/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

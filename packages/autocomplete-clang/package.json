@@ -31,8 +31,8 @@
   "homepage": "https://github.com/yasuyuky/autocomplete-clang#readme",
   "_id": "autocomplete-clang@0.9.4",
   "_shasum": "544373c90a79f235755426d1db0ddacc8a10b5c8",
-  "_resolved": "file:../d-116710-14880-c9qf01/package.tgz",
-  "_from": "../d-116710-14880-c9qf01/package.tgz",
+  "_resolved": "file:../d-116710-20935-1on9spi/package.tgz",
+  "_from": "../d-116710-20935-1on9spi/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

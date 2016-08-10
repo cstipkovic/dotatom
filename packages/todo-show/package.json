@@ -40,8 +40,8 @@
   "homepage": "https://github.com/mrodalgaard/atom-todo-show#readme",
   "_id": "todo-show@1.7.0",
   "_shasum": "1a253931b762504bd85ccd083ec20547758a9feb",
-  "_resolved": "file:../d-116710-9548-1h42x12/package.tgz",
-  "_from": "../d-116710-9548-1h42x12/package.tgz",
+  "_resolved": "file:../d-116710-15455-bxs3a/package.tgz",
+  "_from": "../d-116710-15455-bxs3a/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

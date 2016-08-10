@@ -76,8 +76,8 @@
   "homepage": "https://github.com/AtomLinter/linter-jscs#readme",
   "_id": "linter-jscs@4.0.5",
   "_shasum": "3f0a95e359a25b61f956ba9414616dc868b45136",
-  "_resolved": "file:../d-116710-12339-3q0fqy/package.tgz",
-  "_from": "../d-116710-12339-3q0fqy/package.tgz",
+  "_resolved": "file:../d-116710-18663-1dzxuu5/package.tgz",
+  "_from": "../d-116710-18663-1dzxuu5/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

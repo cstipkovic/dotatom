@@ -22,8 +22,8 @@
   "homepage": "https://github.com/AbeEstrada/atom-html-entities#readme",
   "_id": "html-entities@0.4.0",
   "_shasum": "d375fcd54f5bd873cf51d2e08aaada57efa7d73b",
-  "_resolved": "file:../d-116710-11256-6367r3/package.tgz",
-  "_from": "../d-116710-11256-6367r3/package.tgz",
+  "_resolved": "file:../d-116710-17624-1erm79h/package.tgz",
+  "_from": "../d-116710-17624-1erm79h/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

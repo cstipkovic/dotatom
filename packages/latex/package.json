@@ -227,8 +227,8 @@
   "homepage": "https://github.com/thomasjo/atom-latex#readme",
   "_id": "latex@0.35.0",
   "_shasum": "e5f1ca02fb353c292c3f7981e1705718ad2329a9",
-  "_resolved": "file:../d-116710-14086-nqwsxm/package.tgz",
-  "_from": "../d-116710-14086-nqwsxm/package.tgz",
+  "_resolved": "file:../d-116710-20110-1ndkub7/package.tgz",
+  "_from": "../d-116710-20110-1ndkub7/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

@@ -27,8 +27,8 @@
   "homepage": "https://github.com/AbeEstrada/atom-format-sql#readme",
   "_id": "format-sql@0.3.0",
   "_shasum": "a76205f21ec825871c1aaf3a2f6046f02f8597ff",
-  "_resolved": "file:../d-116710-15690-cddj3i/package.tgz",
-  "_from": "../d-116710-15690-cddj3i/package.tgz",
+  "_resolved": "file:../d-116710-21936-1nla0m5/package.tgz",
+  "_from": "../d-116710-21936-1nla0m5/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

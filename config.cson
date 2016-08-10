@@ -2,7 +2,7 @@
   core:
     fileEncoding: "iso885910"
   editor:
-    fontSize: 12
+    fontSize: 11
     invisibles: {}
     preferredLineLength: 120
     showIndentGuide: true
@@ -19,7 +19,7 @@
     errorPanelHeight: 22
   "linter-jscs":
     configPath: "/home/cin_chalic/workspace/front-end/grunt-taskrunner/.jscsrc"
-    fixOnSave: true
+    fixOnSave: false
     onlyConfig: true
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true

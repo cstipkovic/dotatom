@@ -24,8 +24,8 @@
   "homepage": "https://github.com/Joezo/atom-jshint#readme",
   "_id": "atom-jshint@2.0.0",
   "_shasum": "e698f7384ed742855deaf515eefd655b0072631d",
-  "_resolved": "file:../d-116710-11974-1fs0flx/package.tgz",
-  "_from": "../d-116710-11974-1fs0flx/package.tgz",
+  "_resolved": "file:../d-116710-18368-1ujwait/package.tgz",
+  "_from": "../d-116710-18368-1ujwait/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

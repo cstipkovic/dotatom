@@ -23,8 +23,8 @@
   "homepage": "https://github.com/emmetio/emmet-atom#readme",
   "_id": "emmet@2.4.3",
   "_shasum": "43fafacc11b3b6ae5716868fe539dd398b53430e",
-  "_resolved": "file:../d-116710-10753-1bio949/package.tgz",
-  "_from": "../d-116710-10753-1bio949/package.tgz",
+  "_resolved": "file:../d-116710-17153-1s2kzs6/package.tgz",
+  "_from": "../d-116710-17153-1s2kzs6/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

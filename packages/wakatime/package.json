@@ -104,8 +104,8 @@
   "homepage": "https://github.com/wakatime/atom-wakatime#readme",
   "_id": "wakatime@6.0.10",
   "_shasum": "3141b88f3a3d94054c0e401e0793ade2bcf9500a",
-  "_resolved": "file:../d-116710-10023-apri3i/package.tgz",
-  "_from": "../d-116710-10023-apri3i/package.tgz",
+  "_resolved": "file:../d-116710-16480-r587b3/package.tgz",
+  "_from": "../d-116710-16480-r587b3/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
