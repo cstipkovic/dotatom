@@ -1,0 +1,101 @@
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _specHelpers = require('./spec-helpers');
+
+var _specHelpers2 = _interopRequireDefault(_specHelpers);
+
+var _path = require('path');
+
+var _path2 = _interopRequireDefault(_path);
+
+var _libMasterTexFinder = require('../lib/master-tex-finder');
+
+var _libMasterTexFinder2 = _interopRequireDefault(_libMasterTexFinder);
+
+'use babel';
+
+describe('MasterTexFinder', function () {
+  var rootPath = undefined,
+      fixturesPath = undefined;
+
+  beforeEach(function () {
+    rootPath = atom.project.getPaths()[0];
+    fixturesPath = _path2['default'].join(rootPath, 'master-tex-finder', 'single-master');
+
+    atom.config.set('latex.useMasterFileSearch', true);
+  });
+
+  describe('getMasterTexPath', function () {
+    it('returns the master tex file for the current project', function () {
+      var inc2Path = _path2['default'].join(fixturesPath, 'inc2.tex');
+      var finder = new _libMasterTexFinder2['default'](inc2Path);
+
+      expect(finder.getMasterTexPath()).toBe(_path2['default'].join(fixturesPath, 'master.tex'));
+    });
+
+    it('immediately return the given file, if itself is a root-file', function () {
+      var masterFile = _path2['default'].join(fixturesPath, 'master.tex');
+      var finder = new _libMasterTexFinder2['default'](masterFile);
+      spyOn(finder, 'getTexFilesList').andCallThrough();
+
+      expect(finder.getMasterTexPath()).toBe(masterFile);
+      expect(finder.getTexFilesList).not.toHaveBeenCalled();
+    });
+
+    it('returns the original file if more than one file is a master file', function () {
+      var multiMasterFixturePath = _path2['default'].join(rootPath, 'master-tex-finder', 'multiple-masters');
+      var inc1Path = _path2['default'].join(multiMasterFixturePath, 'inc1.tex');
+      var finder = new _libMasterTexFinder2['default'](inc1Path);
+
+      expect(finder.getMasterTexPath()).toBe(inc1Path);
+    });
+
+    it('immediately returns the file specified by the magic comment when present', function () {
+      var inc1Path = _path2['default'].join(fixturesPath, 'inc1.tex');
+      var finder = new _libMasterTexFinder2['default'](inc1Path);
+
+      spyOn(finder, 'getTexFilesList').andCallThrough();
+
+      expect(finder.getMasterTexPath()).toBe(_path2['default'].join(fixturesPath, 'master.tex'));
+      expect(finder.getTexFilesList).not.toHaveBeenCalled();
+    });
+
+    it('returns the original file if the heuristic search feature is disabled', function () {
+      var inc2Path = _path2['default'].join(fixturesPath, 'inc2.tex');
+      var finder = new _libMasterTexFinder2['default'](inc2Path);
+
+      _specHelpers2['default'].spyOnConfig('latex.useMasterFileSearch', false);
+      spyOn(finder, 'isMasterFile').andCallThrough();
+      spyOn(finder, 'searchForMasterFile').andCallThrough();
+
+      expect(finder.getMasterTexPath()).toBe(inc2Path);
+      expect(finder.isMasterFile).not.toHaveBeenCalled();
+      expect(finder.searchForMasterFile).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('isMasterFile', function () {
+    it('returns true if the given file is the master file', function () {
+      var masterFilePath = _path2['default'].join(fixturesPath, 'master.tex');
+      var inc2Path = _path2['default'].join(fixturesPath, 'inc2.tex');
+      var finder = new _libMasterTexFinder2['default'](inc2Path);
+
+      expect(finder.isMasterFile(masterFilePath)).toBe(true);
+    });
+  });
+
+  describe('getTexFilesList', function () {
+    it('returns the list of tex files in the project directory', function () {
+      var expectedFileList = ['inc1.tex', 'inc2.tex', 'inc3.tex', 'master.tex'].map(function (name) {
+        return _path2['default'].join(fixturesPath, name);
+      });
+      var inc2Path = _path2['default'].join(fixturesPath, 'inc2.tex');
+      var finder = new _libMasterTexFinder2['default'](inc2Path);
+      var sortedFileList = finder.getTexFilesList().sort();
+
+      expect(sortedFileList).toEqual(expectedFileList);
+    });
+  });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Npbl9jaGFsaWMvLmF0b20vcGFja2FnZXMvbGF0ZXgvc3BlYy9tYXN0ZXItdGV4LWZpbmRlci1zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OzJCQUVvQixnQkFBZ0I7Ozs7b0JBQ25CLE1BQU07Ozs7a0NBQ0ssMEJBQTBCOzs7O0FBSnRELFdBQVcsQ0FBQTs7QUFNWCxRQUFRLENBQUMsaUJBQWlCLEVBQUUsWUFBTTtBQUNoQyxNQUFJLFFBQVEsWUFBQTtNQUFFLFlBQVksWUFBQSxDQUFBOztBQUUxQixZQUFVLENBQUMsWUFBTTtBQUNmLFlBQVEsR0FBRyxJQUFJLENBQUMsT0FBTyxDQUFDLFFBQVEsRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFBO0FBQ3JDLGdCQUFZLEdBQUcsa0JBQUssSUFBSSxDQUFDLFFBQVEsRUFBRSxtQkFBbUIsRUFBRSxlQUFlLENBQUMsQ0FBQTs7QUFFeEUsUUFBSSxDQUFDLE1BQU0sQ0FBQyxHQUFHLENBQUMsMkJBQTJCLEVBQUUsSUFBSSxDQUFDLENBQUE7R0FDbkQsQ0FBQyxDQUFBOztBQUVGLFVBQVEsQ0FBQyxrQkFBa0IsRUFBRSxZQUFNO0FBQ2pDLE1BQUUsQ0FBQyxxREFBcUQsRUFBRSxZQUFNO0FBQzlELFVBQU0sUUFBUSxHQUFHLGtCQUFLLElBQUksQ0FBQyxZQUFZLEVBQUUsVUFBVSxDQUFDLENBQUE7QUFDcEQsVUFBTSxNQUFNLEdBQUcsb0NBQW9CLFFBQVEsQ0FBQyxDQUFBOztBQUU1QyxZQUFNLENBQUMsTUFBTSxDQUFDLGdCQUFnQixFQUFFLENBQUMsQ0FBQyxJQUFJLENBQUMsa0JBQUssSUFBSSxDQUFDLFlBQVksRUFBRSxZQUFZLENBQUMsQ0FBQyxDQUFBO0tBQzlFLENBQUMsQ0FBQTs7QUFFRixNQUFFLENBQUMsNkRBQTZELEVBQUUsWUFBTTtBQUN0RSxVQUFNLFVBQVUsR0FBRyxrQkFBSyxJQUFJLENBQUMsWUFBWSxFQUFFLFlBQVksQ0FBQyxDQUFBO0FBQ3hELFVBQU0sTUFBTSxHQUFHLG9DQUFvQixVQUFVLENBQUMsQ0FBQTtBQUM5QyxXQUFLLENBQUMsTUFBTSxFQUFFLGlCQUFpQixDQUFDLENBQUMsY0FBYyxFQUFFLENBQUE7O0FBRWpELFlBQU0sQ0FBQyxNQUFNLENBQUMsZ0JBQWdCLEVBQUUsQ0FBQyxDQUFDLElBQUksQ0FBQyxVQUFVLENBQUMsQ0FBQTtBQUNsRCxZQUFNLENBQUMsTUFBTSxDQUFDLGVBQWUsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxnQkFBZ0IsRUFBRSxDQUFBO0tBQ3RELENBQUMsQ0FBQTs7QUFFRixNQUFFLENBQUMsa0VBQWtFLEVBQUUsWUFBTTtBQUMzRSxVQUFNLHNCQUFzQixHQUFHLGtCQUFLLElBQUksQ0FBQyxRQUFRLEVBQUUsbUJBQW1CLEVBQUUsa0JBQWtCLENBQUMsQ0FBQTtBQUMzRixVQUFNLFFBQVEsR0FBRyxrQkFBSyxJQUFJLENBQUMsc0JBQXNCLEVBQUUsVUFBVSxDQUFDLENBQUE7QUFDOUQsVUFBTSxNQUFNLEdBQUcsb0NBQW9CLFFBQVEsQ0FBQyxDQUFBOztBQUU1QyxZQUFNLENBQUMsTUFBTSxDQUFDLGdCQUFnQixFQUFFLENBQUMsQ0FBQyxJQUFJLENBQUMsUUFBUSxDQUFDLENBQUE7S0FDakQsQ0FBQyxDQUFBOztBQUVGLE1BQUUsQ0FBQywwRUFBMEUsRUFBRSxZQUFNO0FBQ25GLFVBQU0sUUFBUSxHQUFHLGtCQUFLLElBQUksQ0FBQyxZQUFZLEVBQUUsVUFBVSxDQUFDLENBQUE7QUFDcEQsVUFBTSxNQUFNLEdBQUcsb0NBQW9CLFFBQVEsQ0FBQyxDQUFBOztBQUU1QyxXQUFLLENBQUMsTUFBTSxFQUFFLGlCQUFpQixDQUFDLENBQUMsY0FBYyxFQUFFLENBQUE7O0FBRWpELFlBQU0sQ0FBQyxNQUFNLENBQUMsZ0JBQWdCLEVBQUUsQ0FBQyxDQUFDLElBQUksQ0FBQyxrQkFBSyxJQUFJLENBQUMsWUFBWSxFQUFFLFlBQVksQ0FBQyxDQUFDLENBQUE7QUFDN0UsWUFBTSxDQUFDLE1BQU0sQ0FBQyxlQUFlLENBQUMsQ0FBQyxHQUFHLENBQUMsZ0JBQWdCLEVBQUUsQ0FBQTtLQUN0RCxDQUFDLENBQUE7O0FBRUYsTUFBRSxDQUFDLHVFQUF1RSxFQUFFLFlBQU07QUFDaEYsVUFBTSxRQUFRLEdBQUcsa0JBQUssSUFBSSxDQUFDLFlBQVksRUFBRSxVQUFVLENBQUMsQ0FBQTtBQUNwRCxVQUFNLE1BQU0sR0FBRyxvQ0FBb0IsUUFBUSxDQUFDLENBQUE7O0FBRTVDLCtCQUFRLFdBQVcsQ0FBQywyQkFBMkIsRUFBRSxLQUFLLENBQUMsQ0FBQTtBQUN2RCxXQUFLLENBQUMsTUFBTSxFQUFFLGNBQWMsQ0FBQyxDQUFDLGNBQWMsRUFBRSxDQUFBO0FBQzlDLFdBQUssQ0FBQyxNQUFNLEVBQUUscUJBQXFCLENBQUMsQ0FBQyxjQUFjLEVBQUUsQ0FBQTs7QUFFckQsWUFBTSxDQUFDLE1BQU0sQ0FBQyxnQkFBZ0IsRUFBRSxDQUFDLENBQUMsSUFBSSxDQUFDLFFBQVEsQ0FBQyxDQUFBO0FBQ2hELFlBQU0sQ0FBQyxNQUFNLENBQUMsWUFBWSxDQUFDLENBQUMsR0FBRyxDQUFDLGdCQUFnQixFQUFFLENBQUE7QUFDbEQsWUFBTSxDQUFDLE1BQU0sQ0FBQyxtQkFBbUIsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxnQkFBZ0IsRUFBRSxDQUFBO0tBQzFELENBQUMsQ0FBQTtHQUNILENBQUMsQ0FBQTs7QUFFRixVQUFRLENBQUMsY0FBYyxFQUFFLFlBQU07QUFDN0IsTUFBRSxDQUFDLG1EQUFtRCxFQUFFLFlBQU07QUFDNUQsVUFBTSxjQUFjLEdBQUcsa0JBQUssSUFBSSxDQUFDLFlBQVksRUFBRSxZQUFZLENBQUMsQ0FBQTtBQUM1RCxVQUFNLFFBQVEsR0FBRyxrQkFBSyxJQUFJLENBQUMsWUFBWSxFQUFFLFVBQVUsQ0FBQyxDQUFBO0FBQ3BELFVBQU0sTUFBTSxHQUFHLG9DQUFvQixRQUFRLENBQUMsQ0FBQTs7QUFFNUMsWUFBTSxDQUFDLE1BQU0sQ0FBQyxZQUFZLENBQUMsY0FBYyxDQUFDLENBQUMsQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLENBQUE7S0FDdkQsQ0FBQyxDQUFBO0dBQ0gsQ0FBQyxDQUFBOztBQUVGLFVBQVEsQ0FBQyxpQkFBaUIsRUFBRSxZQUFNO0FBQ2hDLE1BQUUsQ0FBQyx3REFBd0QsRUFBRSxZQUFNO0FBQ2pFLFVBQU0sZ0JBQWdCLEdBQUcsQ0FBQyxVQUFVLEVBQUUsVUFBVSxFQUFFLFVBQVUsRUFBRSxZQUFZLENBQUMsQ0FDeEUsR0FBRyxDQUFDLFVBQUEsSUFBSTtlQUFJLGtCQUFLLElBQUksQ0FBQyxZQUFZLEVBQUUsSUFBSSxDQUFDO09BQUEsQ0FBQyxDQUFBO0FBQzdDLFVBQU0sUUFBUSxHQUFHLGtCQUFLLElBQUksQ0FBQyxZQUFZLEVBQUUsVUFBVSxDQUFDLENBQUE7QUFDcEQsVUFBTSxNQUFNLEdBQUcsb0NBQW9CLFFBQVEsQ0FBQyxDQUFBO0FBQzVDLFVBQU0sY0FBYyxHQUFHLE1BQU0sQ0FBQyxlQUFlLEVBQUUsQ0FBQyxJQUFJLEVBQUUsQ0FBQTs7QUFFdEQsWUFBTSxDQUFDLGNBQWMsQ0FBQyxDQUFDLE9BQU8sQ0FBQyxnQkFBZ0IsQ0FBQyxDQUFBO0tBQ2pELENBQUMsQ0FBQTtHQUNILENBQUMsQ0FBQTtDQUNILENBQUMsQ0FBQSIsImZpbGUiOiIvaG9tZS9jaW5fY2hhbGljLy5hdG9tL3BhY2thZ2VzL2xhdGV4L3NwZWMvbWFzdGVyLXRleC1maW5kZXItc3BlYy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2UgYmFiZWwnXG5cbmltcG9ydCBoZWxwZXJzIGZyb20gJy4vc3BlYy1oZWxwZXJzJ1xuaW1wb3J0IHBhdGggZnJvbSAncGF0aCdcbmltcG9ydCBNYXN0ZXJUZXhGaW5kZXIgZnJvbSAnLi4vbGliL21hc3Rlci10ZXgtZmluZGVyJ1xuXG5kZXNjcmliZSgnTWFzdGVyVGV4RmluZGVyJywgKCkgPT4ge1xuICBsZXQgcm9vdFBhdGgsIGZpeHR1cmVzUGF0aFxuXG4gIGJlZm9yZUVhY2goKCkgPT4ge1xuICAgIHJvb3RQYXRoID0gYXRvbS5wcm9qZWN0LmdldFBhdGhzKClbMF1cbiAgICBmaXh0dXJlc1BhdGggPSBwYXRoLmpvaW4ocm9vdFBhdGgsICdtYXN0ZXItdGV4LWZpbmRlcicsICdzaW5nbGUtbWFzdGVyJylcblxuICAgIGF0b20uY29uZmlnLnNldCgnbGF0ZXgudXNlTWFzdGVyRmlsZVNlYXJjaCcsIHRydWUpXG4gIH0pXG5cbiAgZGVzY3JpYmUoJ2dldE1hc3RlclRleFBhdGgnLCAoKSA9PiB7XG4gICAgaXQoJ3JldHVybnMgdGhlIG1hc3RlciB0ZXggZmlsZSBmb3IgdGhlIGN1cnJlbnQgcHJvamVjdCcsICgpID0+IHtcbiAgICAgIGNvbnN0IGluYzJQYXRoID0gcGF0aC5qb2luKGZpeHR1cmVzUGF0aCwgJ2luYzIudGV4JylcbiAgICAgIGNvbnN0IGZpbmRlciA9IG5ldyBNYXN0ZXJUZXhGaW5kZXIoaW5jMlBhdGgpXG5cbiAgICAgIGV4cGVjdChmaW5kZXIuZ2V0TWFzdGVyVGV4UGF0aCgpKS50b0JlKHBhdGguam9pbihmaXh0dXJlc1BhdGgsICdtYXN0ZXIudGV4JykpXG4gICAgfSlcblxuICAgIGl0KCdpbW1lZGlhdGVseSByZXR1cm4gdGhlIGdpdmVuIGZpbGUsIGlmIGl0c2VsZiBpcyBhIHJvb3QtZmlsZScsICgpID0+IHtcbiAgICAgIGNvbnN0IG1hc3RlckZpbGUgPSBwYXRoLmpvaW4oZml4dHVyZXNQYXRoLCAnbWFzdGVyLnRleCcpXG4gICAgICBjb25zdCBmaW5kZXIgPSBuZXcgTWFzdGVyVGV4RmluZGVyKG1hc3RlckZpbGUpXG4gICAgICBzcHlPbihmaW5kZXIsICdnZXRUZXhGaWxlc0xpc3QnKS5hbmRDYWxsVGhyb3VnaCgpXG5cbiAgICAgIGV4cGVjdChmaW5kZXIuZ2V0TWFzdGVyVGV4UGF0aCgpKS50b0JlKG1hc3RlckZpbGUpXG4gICAgICBleHBlY3QoZmluZGVyLmdldFRleEZpbGVzTGlzdCkubm90LnRvSGF2ZUJlZW5DYWxsZWQoKVxuICAgIH0pXG5cbiAgICBpdCgncmV0dXJucyB0aGUgb3JpZ2luYWwgZmlsZSBpZiBtb3JlIHRoYW4gb25lIGZpbGUgaXMgYSBtYXN0ZXIgZmlsZScsICgpID0+IHtcbiAgICAgIGNvbnN0IG11bHRpTWFzdGVyRml4dHVyZVBhdGggPSBwYXRoLmpvaW4ocm9vdFBhdGgsICdtYXN0ZXItdGV4LWZpbmRlcicsICdtdWx0aXBsZS1tYXN0ZXJzJylcbiAgICAgIGNvbnN0IGluYzFQYXRoID0gcGF0aC5qb2luKG11bHRpTWFzdGVyRml4dHVyZVBhdGgsICdpbmMxLnRleCcpXG4gICAgICBjb25zdCBmaW5kZXIgPSBuZXcgTWFzdGVyVGV4RmluZGVyKGluYzFQYXRoKVxuXG4gICAgICBleHBlY3QoZmluZGVyLmdldE1hc3RlclRleFBhdGgoKSkudG9CZShpbmMxUGF0aClcbiAgICB9KVxuXG4gICAgaXQoJ2ltbWVkaWF0ZWx5IHJldHVybnMgdGhlIGZpbGUgc3BlY2lmaWVkIGJ5IHRoZSBtYWdpYyBjb21tZW50IHdoZW4gcHJlc2VudCcsICgpID0+IHtcbiAgICAgIGNvbnN0IGluYzFQYXRoID0gcGF0aC5qb2luKGZpeHR1cmVzUGF0aCwgJ2luYzEudGV4JylcbiAgICAgIGNvbnN0IGZpbmRlciA9IG5ldyBNYXN0ZXJUZXhGaW5kZXIoaW5jMVBhdGgpXG5cbiAgICAgIHNweU9uKGZpbmRlciwgJ2dldFRleEZpbGVzTGlzdCcpLmFuZENhbGxUaHJvdWdoKClcblxuICAgICAgZXhwZWN0KGZpbmRlci5nZXRNYXN0ZXJUZXhQYXRoKCkpLnRvQmUocGF0aC5qb2luKGZpeHR1cmVzUGF0aCwgJ21hc3Rlci50ZXgnKSlcbiAgICAgIGV4cGVjdChmaW5kZXIuZ2V0VGV4RmlsZXNMaXN0KS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpXG4gICAgfSlcblxuICAgIGl0KCdyZXR1cm5zIHRoZSBvcmlnaW5hbCBmaWxlIGlmIHRoZSBoZXVyaXN0aWMgc2VhcmNoIGZlYXR1cmUgaXMgZGlzYWJsZWQnLCAoKSA9PiB7XG4gICAgICBjb25zdCBpbmMyUGF0aCA9IHBhdGguam9pbihmaXh0dXJlc1BhdGgsICdpbmMyLnRleCcpXG4gICAgICBjb25zdCBmaW5kZXIgPSBuZXcgTWFzdGVyVGV4RmluZGVyKGluYzJQYXRoKVxuXG4gICAgICBoZWxwZXJzLnNweU9uQ29uZmlnKCdsYXRleC51c2VNYXN0ZXJGaWxlU2VhcmNoJywgZmFsc2UpXG4gICAgICBzcHlPbihmaW5kZXIsICdpc01hc3RlckZpbGUnKS5hbmRDYWxsVGhyb3VnaCgpXG4gICAgICBzcHlPbihmaW5kZXIsICdzZWFyY2hGb3JNYXN0ZXJGaWxlJykuYW5kQ2FsbFRocm91Z2goKVxuXG4gICAgICBleHBlY3QoZmluZGVyLmdldE1hc3RlclRleFBhdGgoKSkudG9CZShpbmMyUGF0aClcbiAgICAgIGV4cGVjdChmaW5kZXIuaXNNYXN0ZXJGaWxlKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpXG4gICAgICBleHBlY3QoZmluZGVyLnNlYXJjaEZvck1hc3RlckZpbGUpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKClcbiAgICB9KVxuICB9KVxuXG4gIGRlc2NyaWJlKCdpc01hc3RlckZpbGUnLCAoKSA9PiB7XG4gICAgaXQoJ3JldHVybnMgdHJ1ZSBpZiB0aGUgZ2l2ZW4gZmlsZSBpcyB0aGUgbWFzdGVyIGZpbGUnLCAoKSA9PiB7XG4gICAgICBjb25zdCBtYXN0ZXJGaWxlUGF0aCA9IHBhdGguam9pbihmaXh0dXJlc1BhdGgsICdtYXN0ZXIudGV4JylcbiAgICAgIGNvbnN0IGluYzJQYXRoID0gcGF0aC5qb2luKGZpeHR1cmVzUGF0aCwgJ2luYzIudGV4JylcbiAgICAgIGNvbnN0IGZpbmRlciA9IG5ldyBNYXN0ZXJUZXhGaW5kZXIoaW5jMlBhdGgpXG5cbiAgICAgIGV4cGVjdChmaW5kZXIuaXNNYXN0ZXJGaWxlKG1hc3RlckZpbGVQYXRoKSkudG9CZSh0cnVlKVxuICAgIH0pXG4gIH0pXG5cbiAgZGVzY3JpYmUoJ2dldFRleEZpbGVzTGlzdCcsICgpID0+IHtcbiAgICBpdCgncmV0dXJucyB0aGUgbGlzdCBvZiB0ZXggZmlsZXMgaW4gdGhlIHByb2plY3QgZGlyZWN0b3J5JywgKCkgPT4ge1xuICAgICAgY29uc3QgZXhwZWN0ZWRGaWxlTGlzdCA9IFsnaW5jMS50ZXgnLCAnaW5jMi50ZXgnLCAnaW5jMy50ZXgnLCAnbWFzdGVyLnRleCddXG4gICAgICAgIC5tYXAobmFtZSA9PiBwYXRoLmpvaW4oZml4dHVyZXNQYXRoLCBuYW1lKSlcbiAgICAgIGNvbnN0IGluYzJQYXRoID0gcGF0aC5qb2luKGZpeHR1cmVzUGF0aCwgJ2luYzIudGV4JylcbiAgICAgIGNvbnN0IGZpbmRlciA9IG5ldyBNYXN0ZXJUZXhGaW5kZXIoaW5jMlBhdGgpXG4gICAgICBjb25zdCBzb3J0ZWRGaWxlTGlzdCA9IGZpbmRlci5nZXRUZXhGaWxlc0xpc3QoKS5zb3J0KClcblxuICAgICAgZXhwZWN0KHNvcnRlZEZpbGVMaXN0KS50b0VxdWFsKGV4cGVjdGVkRmlsZUxpc3QpXG4gICAgfSlcbiAgfSlcbn0pXG4iXX0=
+//# sourceURL=/home/cin_chalic/.atom/packages/latex/spec/master-tex-finder-spec.js

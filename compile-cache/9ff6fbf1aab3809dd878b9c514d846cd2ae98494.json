@@ -1,0 +1,1 @@
+{".source.js":{"Describe":{"prefix":"_desc","body":"describe('${1:description}', function() {\n\n    beforeEach(function () {\n          // code that executes before every test\n    });\n\n    it('${2:test}', function () {\n\n        // SETUP\n\n        // EXECUTE\n        \n        // TEST RESULTS\n\n    });\n\n\n});"}}}

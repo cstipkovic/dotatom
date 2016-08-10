@@ -1,0 +1,1 @@
+{".text.html":{"Textbox Input":{"prefix":"_vtb","body":"<!-- ${1:description} -->\n<div class=\"row\">\n  <div class=\"col-md-12 form-group\">\n      <label for=\"${2:for}\">${3:label}</label>\n      <input type=\"text\" class=\"form-control\" id=\"${2:for}\" ng-model=\"${4:model}\" placeholder=\"${5:placeholder}\">\n  </div>\n</div>"}}}

@@ -1,0 +1,58 @@
+'.source.js':
+  'Factory\'s Unit Test':
+    'prefix': '_utf'
+    'body': """
+    (function () {
+
+    'use strict';
+
+    describe("${0:name}Factory", function () {
+
+        var _restangular = {
+            all: jasmine.createSpy().and.callFake(function() {
+                return _restangular;
+            }),
+            one: jasmine.createSpy().and.callFake(function() {
+                return _restangular;
+            }),
+            setBaseUrl: jasmine.createSpy().and.callFake(function() {
+                return _restangular;
+            }),
+            customPUT: jasmine.createSpy().and.callFake(function() {
+                return _q.when(true);
+            }),
+            setErrorInterceptor: function () {},
+            get: jasmine.createSpy().and.callFake(function() {
+                return _q.when(true);
+            })
+        };
+
+        beforeEach(function () {
+            // always load nova module
+            module('${1:module name}');
+
+            module(function($provide) {
+                $provide.value("Restangular", _restangular);
+            });
+        });
+
+        var _factory, _rootScope, _q;
+
+        beforeEach(inject(function (
+            $injector,
+            $rootScope,
+            $q) {
+
+            _rootScope = $rootScope;
+            _q = $q;
+
+            // inject mocked dependencies for this factory
+            _factory = $injector.get('${0:name}Factory');
+
+        }));
+
+    });
+
+})();
+
+    """

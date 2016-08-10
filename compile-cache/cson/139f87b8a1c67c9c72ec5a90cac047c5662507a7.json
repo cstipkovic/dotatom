@@ -1,0 +1,1 @@
+{".text.html":{"View Section":{"prefix":"_vs","body":"<!-- ${1:section comment} -->\n<div id=\"${2:id}-section\" class=\"row well\">\n  <div class=\"col-md-2\">\n      <dl>\n          <dt>${3:section title}</dt>\n          <dd class=\"text-muted\">\n          </dd>\n      </dl>\n  </div>\n\n  <div class=\"col-md-10\">\n  </div>\n</div>"}}}

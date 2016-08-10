@@ -1,0 +1,34 @@
+{
+  "name": "language-velocity",
+  "version": "0.1.2",
+  "description": "Language package for the Apache velocity language converted from the Textmate bundle https://github.com/subtleGradient/Java-Velocity.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baldmountain/language-velocity.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">1.0.0"
+  },
+  "dependencies": {},
+  "readme": "# language-velocity package\n\nA apm conversion of the Apache Velocity Textmate bundle at: https://github.com/subtleGradient/Java-Velocity.tmbundle\n\nThe vtl extension was added to file types since we use vtl for velocity files at KAYAK.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/baldmountain/language-velocity/issues"
+  },
+  "homepage": "https://github.com/baldmountain/language-velocity#readme",
+  "_id": "language-velocity@0.1.2",
+  "_shasum": "642476fd8dd14161e95462cfe57132cc2f8604d3",
+  "_resolved": "file:../d-116710-14775-1haw6uy/package.tgz",
+  "_from": "../d-116710-14775-1haw6uy/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

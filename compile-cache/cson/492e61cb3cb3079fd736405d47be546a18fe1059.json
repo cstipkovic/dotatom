@@ -1,0 +1,1 @@
+{".source.js":{"Property Stub":{"prefix":"_prop","body":"var _${1:name} = ${2:initial value};\nObject.defineProperty(this.details, '${1:name}', {\n    get: function () { return _${1:name}; },\n    set: function (value) { _${1:name} = value; }\n});"}}}

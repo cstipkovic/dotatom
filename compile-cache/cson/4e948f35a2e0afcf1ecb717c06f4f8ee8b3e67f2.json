@@ -1,0 +1,1 @@
+{".platform-linux atom-text-editor, .platform-win32 atom-text-editor":{"ctrl-alt-g":"html-validation:validate"},".platform-darwin atom-text-editor":{"cmd-alt-g":"html-validation:validate"}}

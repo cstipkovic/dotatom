@@ -1,0 +1,14 @@
+'.source.js':
+  'It':
+    'prefix': '_it'
+    'body': """
+    it('should ${1:description}', function () {
+
+        // SETUP
+
+        // EXECUTE
+
+        // TEST RESULTS
+
+    });
+    """

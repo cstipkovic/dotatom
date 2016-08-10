@@ -1,0 +1,78 @@
+{
+  "name": "format-sql",
+  "main": "./lib/format-sql",
+  "version": "0.3.0",
+  "description": "Format SQL Statement",
+  "activationCommands": {
+    "atom-text-editor": [
+      "format:sql"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbeEstrada/atom-format-sql.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0 <2.0.0"
+  },
+  "dependencies": {
+    "sql-parser": "^0.4.0"
+  },
+  "readme": "# Format SQL\n\nFormat SQL Statement package.\n\nFrom:\n\n    select a,b from foo join bar on val1 = val2 where id = 123 and cd = 99\n\nTo:\n\n    SELECT `a`, `b`\n      FROM `foo`\n      JOIN `bar`\n        ON (`val1` = `val2`)\n      WHERE ((`id` = 123) and (`cd` = 99))\n\nIf you want you can add this code to you `keymap.cson` to add a shortcut.\n\n    '.editor':\n      'f5': 'format:sql'\n\n![format-sql-screenshot](https://cloud.githubusercontent.com/assets/7937/2948422/e7c4cdec-da01-11e3-832d-340c15f5b358.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/AbeEstrada/atom-format-sql/issues"
+  },
+  "homepage": "https://github.com/AbeEstrada/atom-format-sql#readme",
+  "_id": "format-sql@0.3.0",
+  "_shasum": "a76205f21ec825871c1aaf3a2f6046f02f8597ff",
+  "_resolved": "file:../d-116710-15690-cddj3i/package.tgz",
+  "_from": "../d-116710-15690-cddj3i/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "sql-parser",
+        "version": "0.4.0",
+        "path": "node_modules/sql-parser/index.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/format-sql.coffee",
+        "node_modules/sql-parser/src/grammar.coffee",
+        "node_modules/sql-parser/src/lexer.coffee",
+        "node_modules/sql-parser/src/nodes.coffee",
+        "node_modules/sql-parser/src/parser.coffee",
+        "node_modules/sql-parser/src/sql_parser.coffee"
+      ],
+      ".js": [
+        "node_modules/sql-parser/browser/sql-parser.js",
+        "node_modules/sql-parser/index.js",
+        "node_modules/sql-parser/lib/browser.js",
+        "node_modules/sql-parser/lib/compiled_parser.js",
+        "node_modules/sql-parser/lib/grammar.js",
+        "node_modules/sql-parser/lib/lexer.js",
+        "node_modules/sql-parser/lib/nodes.js",
+        "node_modules/sql-parser/lib/parser.js",
+        "node_modules/sql-parser/lib/sql_parser.js"
+      ],
+      ".json": [
+        "node_modules/sql-parser/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "sql-parser": "^0.4.0"
+        }
+      }
+    ]
+  }
+}

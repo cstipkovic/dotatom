@@ -1,0 +1,1 @@
+{".source.js":{"Scope Method":{"prefix":"_sm","body":"/**\n* ${1:description}\n*\n* @method ${2:name}\n**/\n$scope.${2:name} = function() {\n};"}}}

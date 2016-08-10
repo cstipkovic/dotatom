@@ -1,0 +1,667 @@
+8e9cbad2c3d6362b17cac553d099295bd6b8ed84	not-for-merge	branch '0.10.6' of https://github.com/yyx990803/vue
+98c622b1ecb1890d25672f5eb6d2ca85f11c1db5	not-for-merge	branch '0.11.0-rc' of https://github.com/yyx990803/vue
+7e767f953cd542e64b67e0aa25af8c96770d7eb7	not-for-merge	branch '0.11.0-rc2' of https://github.com/yyx990803/vue
+7163a9b63df5ffe898f395fb8bb31f2851d472f6	not-for-merge	branch '0.11.0-rc3' of https://github.com/yyx990803/vue
+5f6f0730df1b47aa39647ffb88108cb5423eeac9	not-for-merge	branch '0.11.9-rc' of https://github.com/yyx990803/vue
+a39476d72981c014a3cf030fa38ea2fddfbfb23f	not-for-merge	branch '0.12.0-beta' of https://github.com/yyx990803/vue
+3959b676e2abe6c081005d3f9388f92ffc3cd534	not-for-merge	branch 'async-component' of https://github.com/yyx990803/vue
+b3c529992e322daa4c3a486137730078edd22ffd	not-for-merge	branch 'csp' of https://github.com/yyx990803/vue
+a0b1a38dfd2a28b20397c3ed42fa13478f0bc6fa	not-for-merge	branch 'dev' of https://github.com/yyx990803/vue
+5f27148eea85a915b2f0bb5f1a131324d7133635	not-for-merge	branch 'legacy-dev' of https://github.com/yyx990803/vue
+e614d9c3bbc0d81018fccd266f64195711b72910	not-for-merge	branch 'master' of https://github.com/yyx990803/vue
+5ad46ce4bda212dd79c52fb51b64f9aec74af34c	not-for-merge	branch 'memoized-computed-property' of https://github.com/yyx990803/vue
+63b35b24e7d50c6b04a48c938070205aaf6e1fe8	not-for-merge	branch 'next' of https://github.com/yyx990803/vue
+8a51e4824ead94654c0997910f6172367d3e1543	not-for-merge	branch 'stagger' of https://github.com/yyx990803/vue
+1c61718dd1c61b27717e2c1cf187f0ec4cf8d438	not-for-merge	branch 'transclude-refactor' of https://github.com/yyx990803/vue
+aaf0b48fa61dca1a52ff15bd311dace831fe4ab8	not-for-merge	'refs/pull/118/head' of https://github.com/yyx990803/vue
+5e006c82457c54db82263816e733815689e9a696	not-for-merge	'refs/pull/119/head' of https://github.com/yyx990803/vue
+9e5953a03e12010ba4fdb8130e0924e061699a04	not-for-merge	'refs/pull/119/merge' of https://github.com/yyx990803/vue
+03800902ca9295a469c9b33a5b3d38b546c75511	not-for-merge	'refs/pull/120/head' of https://github.com/yyx990803/vue
+0a64d2096ac6434f6636e82cf976da4ba2177696	not-for-merge	'refs/pull/120/merge' of https://github.com/yyx990803/vue
+03800902ca9295a469c9b33a5b3d38b546c75511	not-for-merge	'refs/pull/121/head' of https://github.com/yyx990803/vue
+174ceb2285ed1c92cc25ea0aa448538b529d5d2b	not-for-merge	'refs/pull/128/head' of https://github.com/yyx990803/vue
+81a487d6c5a7941dd5bfd980483b30d1f936404c	not-for-merge	'refs/pull/162/head' of https://github.com/yyx990803/vue
+54d2e000ab78bb1e06308ad270b52f857b854994	not-for-merge	'refs/pull/162/merge' of https://github.com/yyx990803/vue
+3df6343a81cd38c0fe401526b2ad545281b0d2e1	not-for-merge	'refs/pull/180/head' of https://github.com/yyx990803/vue
+28c4748c325dd4fd738e80f8921e9c8fc73c38a1	not-for-merge	'refs/pull/180/merge' of https://github.com/yyx990803/vue
+80dbce65eceaafd75af3cbb8eb5e34d8d7d6ba5e	not-for-merge	'refs/pull/181/head' of https://github.com/yyx990803/vue
+1a0d2170754168db52c582794e5b4cb5d06b4fd3	not-for-merge	'refs/pull/181/merge' of https://github.com/yyx990803/vue
+1cc2f5b3defb6659fd0b01ce2e6920d6eabe6ec4	not-for-merge	'refs/pull/182/head' of https://github.com/yyx990803/vue
+81880b9fef4a6bbdb9db622c2212004f46ce95cb	not-for-merge	'refs/pull/182/merge' of https://github.com/yyx990803/vue
+dbe26cd96e6dba950593e8861dd9801d2d2e0cbe	not-for-merge	'refs/pull/186/head' of https://github.com/yyx990803/vue
+38873d5771739ca31826e4e5060b29b3891aeffb	not-for-merge	'refs/pull/186/merge' of https://github.com/yyx990803/vue
+dbe26cd96e6dba950593e8861dd9801d2d2e0cbe	not-for-merge	'refs/pull/187/head' of https://github.com/yyx990803/vue
+4d21cf64a6b44daddb59f0c4d4fc3602636f09c1	not-for-merge	'refs/pull/187/merge' of https://github.com/yyx990803/vue
+057c0867c75b2f69a399234a874d226c7d6d76a6	not-for-merge	'refs/pull/249/head' of https://github.com/yyx990803/vue
+04a7ff6f7f7b137ebea45379cfd0fb7faa27e22c	not-for-merge	'refs/pull/261/head' of https://github.com/yyx990803/vue
+250969a000086f3cf89b60d294965afa7da09767	not-for-merge	'refs/pull/262/head' of https://github.com/yyx990803/vue
+c7409a2e3ce38c12d989aaea31fb5a50a80b8b53	not-for-merge	'refs/pull/262/merge' of https://github.com/yyx990803/vue
+a487821461148c9fa175a4b6bba622c4a97b679a	not-for-merge	'refs/pull/267/head' of https://github.com/yyx990803/vue
+9425bd3855a66e053cecb67bfec40f70d3f87f93	not-for-merge	'refs/pull/271/head' of https://github.com/yyx990803/vue
+d782cd362bbb6b9b83bb57b06b49f257edcb68aa	not-for-merge	'refs/pull/272/head' of https://github.com/yyx990803/vue
+574053847fd995e8921ee96a5124a01c0989c960	not-for-merge	'refs/pull/272/merge' of https://github.com/yyx990803/vue
+80c3c42da97f33f85e885481d035b4164f506ae6	not-for-merge	'refs/pull/283/head' of https://github.com/yyx990803/vue
+933c3a3689375cca774bb4973445f43d9102cd1d	not-for-merge	'refs/pull/283/merge' of https://github.com/yyx990803/vue
+079193acaaa08c83673670dc388f533300471166	not-for-merge	'refs/pull/298/head' of https://github.com/yyx990803/vue
+42ef96071041450737732868bf857cce57afb0eb	not-for-merge	'refs/pull/298/merge' of https://github.com/yyx990803/vue
+23f47750bd7363d1cef2cf7957b22b375a46b2e7	not-for-merge	'refs/pull/300/head' of https://github.com/yyx990803/vue
+22f9ea9c547e4d17246c4ccb208a59fbf4ae3f68	not-for-merge	'refs/pull/302/head' of https://github.com/yyx990803/vue
+93f7b743c5395da315e96647e1d68b829bcf2897	not-for-merge	'refs/pull/305/head' of https://github.com/yyx990803/vue
+faf58c6513b2ba5443fbcff84e19d81cc66943ad	not-for-merge	'refs/pull/305/merge' of https://github.com/yyx990803/vue
+93f7b743c5395da315e96647e1d68b829bcf2897	not-for-merge	'refs/pull/306/head' of https://github.com/yyx990803/vue
+b5b790f1cd83fb93ac13a8e15ee7f0af13c11b13	not-for-merge	'refs/pull/311/head' of https://github.com/yyx990803/vue
+00c04430cd66c86187606badc614c75de0cb23fe	not-for-merge	'refs/pull/311/merge' of https://github.com/yyx990803/vue
+a52d42ba9d711d41ef064d389d2c14dab8504628	not-for-merge	'refs/pull/326/head' of https://github.com/yyx990803/vue
+5f34f088fd607196a17a3db834fe91d68b95b4c6	not-for-merge	'refs/pull/327/head' of https://github.com/yyx990803/vue
+2d0e287e46707278d4a8ad9e4d649fbdd36ba8df	not-for-merge	'refs/pull/327/merge' of https://github.com/yyx990803/vue
+66f4708643438900bd217e089210fb1f5c5c5bff	not-for-merge	'refs/pull/336/head' of https://github.com/yyx990803/vue
+de373c99d4311d5cd59e56fb68688a6844b70e3c	not-for-merge	'refs/pull/336/merge' of https://github.com/yyx990803/vue
+d2e2e57dfb82ad1782a88bb83d61df40f375e4f5	not-for-merge	'refs/pull/343/head' of https://github.com/yyx990803/vue
+f99a830b7b43ac637845c924cac031db1f2c0aee	not-for-merge	'refs/pull/344/head' of https://github.com/yyx990803/vue
+cff912e5f9a902083c65d8387e066073ffbc0288	not-for-merge	'refs/pull/344/merge' of https://github.com/yyx990803/vue
+8b1ad176e861fa7095ee2197ea2e07a731d3d35a	not-for-merge	'refs/pull/347/head' of https://github.com/yyx990803/vue
+1e7c6f9ac6880a16263ab93bf8f5dec7d0e152f7	not-for-merge	'refs/pull/347/merge' of https://github.com/yyx990803/vue
+937ec1072a1973ff7a4b80846f4a50e629ecc194	not-for-merge	'refs/pull/354/head' of https://github.com/yyx990803/vue
+8a934be1725e5bb98de92d2724991e4887de7cb9	not-for-merge	'refs/pull/354/merge' of https://github.com/yyx990803/vue
+81e9edf81d7e332df7b900a9ff9797008a8d707e	not-for-merge	'refs/pull/376/head' of https://github.com/yyx990803/vue
+67314445a6fe1a792b0e11246dcad2771b89f2f7	not-for-merge	'refs/pull/385/head' of https://github.com/yyx990803/vue
+f2ca2b157a93e1fcc9ff353d21cd0492b65abec6	not-for-merge	'refs/pull/387/head' of https://github.com/yyx990803/vue
+031630b1454fa253f842db752feead67eeebce43	not-for-merge	'refs/pull/387/merge' of https://github.com/yyx990803/vue
+04d666de0efe925648b01a95e915299d76e288eb	not-for-merge	'refs/pull/389/head' of https://github.com/yyx990803/vue
+d7576079f2236f057c69f5911c91c8eac7288789	not-for-merge	'refs/pull/389/merge' of https://github.com/yyx990803/vue
+388fe79fdd6018842a49427c2342b118e78ab2b0	not-for-merge	'refs/pull/390/head' of https://github.com/yyx990803/vue
+49693c708eb36037c790b3094c937dcbc5edc7ac	not-for-merge	'refs/pull/417/head' of https://github.com/yyx990803/vue
+75b8d835743fb952c5b1d119dbe3ccc45a3498c0	not-for-merge	'refs/pull/417/merge' of https://github.com/yyx990803/vue
+f870cdc81377579e750c08f06e23bbaf0bacb988	not-for-merge	'refs/pull/422/head' of https://github.com/yyx990803/vue
+cd9d9915f393da4ee848f4e667b09ab017446cd7	not-for-merge	'refs/pull/451/head' of https://github.com/yyx990803/vue
+466219db0fa45f4f491c4767931e2936ce001c7c	not-for-merge	'refs/pull/469/head' of https://github.com/yyx990803/vue
+0dcc29f548e241d95b55a33cf691f6da8b1b1609	not-for-merge	'refs/pull/469/merge' of https://github.com/yyx990803/vue
+05207a3c2e72f449c8983cea5d3b203cf723dbca	not-for-merge	'refs/pull/511/head' of https://github.com/yyx990803/vue
+4e31c355f8cfcb65f959dcbb700221dee1394686	not-for-merge	'refs/pull/537/head' of https://github.com/yyx990803/vue
+751fbfeddfafaad021dd5fcf2f08716b887748f1	not-for-merge	'refs/pull/540/head' of https://github.com/yyx990803/vue
+83f1a1b9b1eb74ae1176e5ac4864f51227c9827f	not-for-merge	'refs/pull/540/merge' of https://github.com/yyx990803/vue
+3ab680f21f3d2e9cfdbf38421b996c25bd6939f3	not-for-merge	'refs/pull/547/head' of https://github.com/yyx990803/vue
+7b0bd12c536c9861a72c9ccf442a66e4ea6fbc0f	not-for-merge	'refs/pull/564/head' of https://github.com/yyx990803/vue
+cf918e8ae4c5d590eb9d0a14e6eaeae6ee5f9313	not-for-merge	'refs/pull/564/merge' of https://github.com/yyx990803/vue
+0c9c83a0790ae7dda5163c170c2cdc52f5020a52	not-for-merge	'refs/pull/572/head' of https://github.com/yyx990803/vue
+abfcfe18c2e1c10debc8ee8fa03b0993ac1497a8	not-for-merge	'refs/pull/572/merge' of https://github.com/yyx990803/vue
+b96e1b571ebf2748fc49936e6fdfa241c08293d7	not-for-merge	'refs/pull/605/head' of https://github.com/yyx990803/vue
+598ed1db5c0f630d6e07d9b1b1f25dce50883755	not-for-merge	'refs/pull/607/head' of https://github.com/yyx990803/vue
+923aee6de8d51e195e1db467481fba564fb7d614	not-for-merge	'refs/pull/608/head' of https://github.com/yyx990803/vue
+999d80201a23bf4db67b6a9419e497db506be1a9	not-for-merge	'refs/pull/650/head' of https://github.com/yyx990803/vue
+e7e96325edf774d9e7caef17b310a267b77c2d02	not-for-merge	'refs/pull/650/merge' of https://github.com/yyx990803/vue
+a98f5e7a412364c9ea2803c56714debdba5ccd53	not-for-merge	'refs/pull/683/head' of https://github.com/yyx990803/vue
+de072a0df5b831201618806a36115d84f4560b9c	not-for-merge	'refs/pull/683/merge' of https://github.com/yyx990803/vue
+36cfdb6eef99a1fd8f9be63c10fb3bb05eb6bfc6	not-for-merge	'refs/pull/691/head' of https://github.com/yyx990803/vue
+e2348ebd9275564764fd8fe43a3ad7780772ba60	not-for-merge	'refs/pull/70/head' of https://github.com/yyx990803/vue
+ba26a48bc98e5d236495646d2e522422ff1edc6d	not-for-merge	'refs/pull/70/merge' of https://github.com/yyx990803/vue
+a5624f906213963739cab0b33fac2bdbe5cf14b9	not-for-merge	'refs/pull/705/head' of https://github.com/yyx990803/vue
+9d6f99f8ccdf0bebb2f9f96b99102317cb8dc294	not-for-merge	'refs/pull/705/merge' of https://github.com/yyx990803/vue
+7b7c2e57cf0211d8a6c422796628f299065f6f65	not-for-merge	'refs/pull/709/head' of https://github.com/yyx990803/vue
+3ced67667bf14f170bf4688e1383ddca62dcb2f9	not-for-merge	'refs/pull/718/head' of https://github.com/yyx990803/vue
+8de1bb8bd2140813acb18ae5a0b01edb38c54ddd	not-for-merge	'refs/pull/719/head' of https://github.com/yyx990803/vue
+085abf8b115178530ebac516457a2a52a9ecc5f9	not-for-merge	'refs/pull/720/head' of https://github.com/yyx990803/vue
+97dcced6549a7dd4dce3fd446adb6fd7c508ea05	not-for-merge	'refs/pull/725/head' of https://github.com/yyx990803/vue
+95a308ff957efc3ef6459237d9fc6551ba9ae4ee	not-for-merge	'refs/pull/731/head' of https://github.com/yyx990803/vue
+6330d147833faa910a833e5eef8f47532753be0e	not-for-merge	'refs/pull/731/merge' of https://github.com/yyx990803/vue
+f6ddac020fb12d0924bb5bdf4da8d3e997fd4813	not-for-merge	'refs/pull/745/head' of https://github.com/yyx990803/vue
+a4a12a879ed0a54c347602742c7b90da362e60c4	not-for-merge	'refs/pull/745/merge' of https://github.com/yyx990803/vue
+0fcd867979fac7e4e7075f66aa678eb3765472c9	not-for-merge	'refs/pull/753/head' of https://github.com/yyx990803/vue
+042fdeb1bae5acb0b4607d72c519a9947bb3352f	not-for-merge	'refs/pull/753/merge' of https://github.com/yyx990803/vue
+523372bb5e620a3988ee11f7b5115f963a0017ae	not-for-merge	'refs/pull/755/head' of https://github.com/yyx990803/vue
+2b3b2f9f63c0aed2d1a3f3af2a9bb0c0638c7812	not-for-merge	'refs/pull/755/merge' of https://github.com/yyx990803/vue
+fe1f6d0de0aa83d1d2ee644537ab92400398b657	not-for-merge	'refs/pull/756/head' of https://github.com/yyx990803/vue
+85acad3059dff31cad801bbf1076782b4e3a70dd	not-for-merge	'refs/pull/756/merge' of https://github.com/yyx990803/vue
+168aaa9e4eb8caeba430a22f88b76324d3b1aebe	not-for-merge	'refs/pull/757/head' of https://github.com/yyx990803/vue
+1288a2ba189cebb17f70610aa84716c9dbe4ce35	not-for-merge	'refs/pull/757/merge' of https://github.com/yyx990803/vue
+570d3af2a979db127ab9c0791d3fd471765d9bdc	not-for-merge	'refs/pull/762/head' of https://github.com/yyx990803/vue
+79d12ad0af5555a9ff05e5fb720c21978eba8018	not-for-merge	'refs/pull/764/head' of https://github.com/yyx990803/vue
+4bd07740238fff985568dfc1ad3ac55474fea0ee	not-for-merge	'refs/pull/764/merge' of https://github.com/yyx990803/vue
+0f4bfb08aea437b5d6dc6721711434a2120c5f97	not-for-merge	'refs/pull/766/head' of https://github.com/yyx990803/vue
+405e95929cf9cc11613aadbcecc9aa1fc1e0f772	not-for-merge	'refs/pull/767/head' of https://github.com/yyx990803/vue
+aaa008b5a7003a2ea12d621cda72cf7993af165c	not-for-merge	'refs/pull/767/merge' of https://github.com/yyx990803/vue
+405e95929cf9cc11613aadbcecc9aa1fc1e0f772	not-for-merge	'refs/pull/768/head' of https://github.com/yyx990803/vue
+8eed69c6de9041a27f9370adf25d8a7bd3b380ce	not-for-merge	'refs/pull/772/head' of https://github.com/yyx990803/vue
+10d5462f329e1d468ed7c8dda177e7137e0f3cdd	not-for-merge	'refs/pull/772/merge' of https://github.com/yyx990803/vue
+9c652e4439e869858d2daa5bd3d17405eb1ba79b	not-for-merge	'refs/pull/780/head' of https://github.com/yyx990803/vue
+676669cecd9414e6e978a6493a1b1099833108ab	not-for-merge	'refs/pull/783/head' of https://github.com/yyx990803/vue
+a3cdcacad44c6570b605406f74a58faf6421300f	not-for-merge	'refs/pull/787/head' of https://github.com/yyx990803/vue
+9587d1051ebf994cec807c6ae3a39bf215158955	not-for-merge	'refs/pull/808/head' of https://github.com/yyx990803/vue
+4a459e882dbf09c81f6378edcfb7dca4b21339f8	not-for-merge	'refs/pull/834/head' of https://github.com/yyx990803/vue
+bdc84731db52be95e9d1b1652799a45cd0317737	not-for-merge	'refs/pull/834/merge' of https://github.com/yyx990803/vue
+0946939f364d9119daeb3857efb283c8a22dde6c	not-for-merge	'refs/pull/836/head' of https://github.com/yyx990803/vue
+459d780a731fd3bd0e663f78a1a23793054b4d2a	not-for-merge	'refs/pull/836/merge' of https://github.com/yyx990803/vue
+45110f482e6ba6d778b1e94114e1d5f1667e26af	not-for-merge	'refs/pull/839/head' of https://github.com/yyx990803/vue
+6cfdb8e1a92515098fcf7bda1b5fb7e1a32a0f3d	not-for-merge	'refs/pull/839/merge' of https://github.com/yyx990803/vue
+26b5acdc796651f54541e0c60ae58dd4e4a611d7	not-for-merge	'refs/pull/849/head' of https://github.com/yyx990803/vue
+748d8f81ed802d53bd2ccbac6f2276432e173996	not-for-merge	'refs/pull/851/head' of https://github.com/yyx990803/vue
+008a1ecd7b44dff742b9acef4f4b85afadd95f22	not-for-merge	'refs/pull/861/head' of https://github.com/yyx990803/vue
+e4a1cfab77b6789283d64aa224ac9c5c190bbef6	not-for-merge	'refs/pull/881/head' of https://github.com/yyx990803/vue
+45f061d239f59c5e035a0675a4d61f91e6b6b145	not-for-merge	'refs/pull/882/head' of https://github.com/yyx990803/vue
+3b22f700430df60d4369b530ab972a2968084ad7	not-for-merge	'refs/pull/882/merge' of https://github.com/yyx990803/vue
+cf86633b532ea4f42370900647d498ebf90e305f	not-for-merge	'refs/pull/89/head' of https://github.com/yyx990803/vue
+3a2c8e1193a4882ec8537b0613c255b4ee3e8cc5	not-for-merge	'refs/pull/89/merge' of https://github.com/yyx990803/vue
+2333f426133d70ce0ebda62b51e36348426b0be8	not-for-merge	'refs/pull/892/head' of https://github.com/yyx990803/vue
+5a4e1b7e97faaaa83a871b568788eebb59a5f14d	not-for-merge	'refs/pull/893/head' of https://github.com/yyx990803/vue
+b44185480d71ee1403088d19e236e1b1f1a1e25a	not-for-merge	'refs/pull/894/head' of https://github.com/yyx990803/vue
+911839067a4d467631486046ff13cb77f3ab095e	not-for-merge	'refs/pull/894/merge' of https://github.com/yyx990803/vue
+7bb8ef1525009370230d7a569ecc3bbf86656ea2	not-for-merge	'refs/pull/90/head' of https://github.com/yyx990803/vue
+43b40f48c3a639c60bb2ce5ce8db56b211d32547	not-for-merge	'refs/pull/90/merge' of https://github.com/yyx990803/vue
+0249e1e09e8aa219f432c85c2de0df2fdf1ab95e	not-for-merge	'refs/pull/901/head' of https://github.com/yyx990803/vue
+04b1864c820237ea3192e48f23cc2b6dd8d6807b	not-for-merge	'refs/pull/901/merge' of https://github.com/yyx990803/vue
+93837c2310c179fc941c4f7d3089318109358cd2	not-for-merge	'refs/pull/902/head' of https://github.com/yyx990803/vue
+5ff379dfad5dc992ca7e3d1122876dccd7ee3406	not-for-merge	'refs/pull/905/head' of https://github.com/yyx990803/vue
+4dfdbe4c03bb6ef5c64afb195d2a8e0265d56dee	not-for-merge	'refs/pull/91/head' of https://github.com/yyx990803/vue
+6e8d1ced8f88f18c7077b13c8e647b5b48eef2bf	not-for-merge	'refs/pull/92/head' of https://github.com/yyx990803/vue
+7d5637566059270548a6551b486a2744568d5667	not-for-merge	'refs/pull/926/head' of https://github.com/yyx990803/vue
+e3c9363ab73aa0c911e1e6971247e0fe5753762d	not-for-merge	'refs/pull/937/head' of https://github.com/yyx990803/vue
+3f52ccb0e750609c6af325bd8b75c779416a7d8f	not-for-merge	'refs/pull/94/head' of https://github.com/yyx990803/vue
+134fe562332e99b376d584a3a9d8695623aaa7c5	not-for-merge	'refs/pull/94/merge' of https://github.com/yyx990803/vue
+ddd5d5f0550f7d25220c0c1498f797f1dabfebf8	not-for-merge	'refs/pull/982/head' of https://github.com/yyx990803/vue
+1dce5be7c2eb8e7831023f3e4526928ce1dca7d9	not-for-merge	'refs/pull/982/merge' of https://github.com/yyx990803/vue
+8b3b8fbd0751c46c7c149383bb4e072be0d01dff	not-for-merge	tag '0.10.0-rc' of https://github.com/yyx990803/vue
+5bc3e30b694dc3b6aeeb87c24f88b9cd7a7259d6	not-for-merge	tag '0.11.0' of https://github.com/yyx990803/vue
+512d265cbd656da5e19cf1d5f1a43f321b6488a5	not-for-merge	tag '0.11.0-rc' of https://github.com/yyx990803/vue
+7e767f953cd542e64b67e0aa25af8c96770d7eb7	not-for-merge	tag '0.11.0-rc2' of https://github.com/yyx990803/vue
+7163a9b63df5ffe898f395fb8bb31f2851d472f6	not-for-merge	tag '0.11.0-rc3' of https://github.com/yyx990803/vue
+0df318c29d7e10bfa8e5c7ca31837af91ff3174c	not-for-merge	tag '0.11.1' of https://github.com/yyx990803/vue
+d257c81a5889d45012f6df39873fba3f8697f0cc	not-for-merge	tag '0.11.10' of https://github.com/yyx990803/vue
+51cfffbdba03b937f0ef8efe40a87521852d601e	not-for-merge	tag '0.11.2' of https://github.com/yyx990803/vue
+fe35b5101fb0bb7fc94025f62b857a1404bffb7d	not-for-merge	tag '0.11.3' of https://github.com/yyx990803/vue
+19e0223f5faa2592b37434e9936f2885a5d9cb2f	not-for-merge	tag '0.11.4' of https://github.com/yyx990803/vue
+a06cd65e1c72beea48485a2a5a91c579c0752fa7	not-for-merge	tag '0.11.5' of https://github.com/yyx990803/vue
+6c3b290bb051e16ce5fc0897638b2eb4abae0214	not-for-merge	tag '0.11.6' of https://github.com/yyx990803/vue
+563b0b965c4c6724729ddfd42598184f13c8b4f7	not-for-merge	tag '0.11.7' of https://github.com/yyx990803/vue
+6c841059d2893d383befeed0caf8090d5f0e8b88	not-for-merge	tag '0.11.8' of https://github.com/yyx990803/vue
+7f7e36bd4a298623d656ca7cab5f23976756de15	not-for-merge	tag '0.11.9' of https://github.com/yyx990803/vue
+66b124b7ecf7916ac2506fb5bd8006858006fb35	not-for-merge	tag '0.12.0' of https://github.com/yyx990803/vue
+0a69a55eee9b3c705dfc8953876d1c6190c2194c	not-for-merge	tag '0.12.0-beta2' of https://github.com/yyx990803/vue
+8f742d5fe3b4e9f1477fadd0f1e1ed86eca0b548	not-for-merge	tag '0.12.0-beta3' of https://github.com/yyx990803/vue
+f3552df2b0bc9777e9bb5c866ffda7e70e6b2fa3	not-for-merge	tag '0.12.0-beta4' of https://github.com/yyx990803/vue
+a39476d72981c014a3cf030fa38ea2fddfbfb23f	not-for-merge	tag '0.12.0-beta5' of https://github.com/yyx990803/vue
+2ed38c9f75a20464e6949f39af079c8643ac8d14	not-for-merge	tag '0.12.0-csp' of https://github.com/yyx990803/vue
+61eaa271c0694cc4cf7296637b55b5481dbd3f98	not-for-merge	tag '0.12.0-rc' of https://github.com/yyx990803/vue
+597fa8be89af8ce4d1939b19a9c47a44daeb506b	not-for-merge	tag '0.12.0-rc2' of https://github.com/yyx990803/vue
+2eedc8d76a6015def406c062221bafe2d74e2508	not-for-merge	tag '0.12.1' of https://github.com/yyx990803/vue
+9aecbfbb9938fd317cfdeab28eb397c0b43fdbc0	not-for-merge	tag '0.12.1-csp' of https://github.com/yyx990803/vue
+e8d82d2840d314970568e7c576b100aed7d0cd07	not-for-merge	tag '0.12.1-csp.1' of https://github.com/yyx990803/vue
+b3c529992e322daa4c3a486137730078edd22ffd	not-for-merge	tag '0.12.1-csp.2' of https://github.com/yyx990803/vue
+54f860d63fb4bf7d664fdaae74c5678262c715a7	not-for-merge	tag '0.12.2' of https://github.com/yyx990803/vue
+ecc883131c5838562c7f8a853ed945dd431e5e7b	not-for-merge	tag '0.12.3' of https://github.com/yyx990803/vue
+e614d9c3bbc0d81018fccd266f64195711b72910	not-for-merge	tag '0.12.4' of https://github.com/yyx990803/vue
+218557cdec830a629252f4a9e2643973dc1f1d2d	not-for-merge	tag '0.6.0' of https://github.com/yyx990803/vue
+cd53688d5364aef64aafc986c02e491f8cf90f82	not-for-merge	tag 'v0.10.0' of https://github.com/yyx990803/vue
+12f1ca2b93176e81c5f208437e1a6af745dd7da9	not-for-merge	tag 'v0.10.1' of https://github.com/yyx990803/vue
+e1ea3fc840f1b6c9ebecced35abcb48074b08c4b	not-for-merge	tag 'v0.10.2' of https://github.com/yyx990803/vue
+1eea0df8981a8933976b08e716d84da2b8453996	not-for-merge	tag 'v0.10.3' of https://github.com/yyx990803/vue
+d3758fc7e17a0e115092c5fc89264ec7fff7ea39	not-for-merge	tag 'v0.10.4' of https://github.com/yyx990803/vue
+fe996b388971b014279b1f90df26ef95d8b00f05	not-for-merge	tag 'v0.10.5' of https://github.com/yyx990803/vue
+cf37f7efd6d63c0aa46b50c624816e645ddd7edd	not-for-merge	tag 'v0.10.6' of https://github.com/yyx990803/vue
+f4861ca9905a170b9a4b185e8a2038dc7c11c58e	not-for-merge	tag 'v0.7.0' of https://github.com/yyx990803/vue
+590a7ee55b655f166ecdf8e7a5e22dab7a9e6dd7	not-for-merge	tag 'v0.7.1' of https://github.com/yyx990803/vue
+e78fb82212ac229c91fc8b1f09a84b24f577541a	not-for-merge	tag 'v0.7.2' of https://github.com/yyx990803/vue
+dcc839a4314de8825f7087f00c4e40ea2d22b46f	not-for-merge	tag 'v0.7.3' of https://github.com/yyx990803/vue
+8c7ee32caa3b118e66e33bf6128218127283334f	not-for-merge	tag 'v0.7.4' of https://github.com/yyx990803/vue
+eb111394f731519466e9230d9e92f2bd5687656d	not-for-merge	tag 'v0.7.5' of https://github.com/yyx990803/vue
+bf5c14b9e69e1069caebabe03feef565da065fc7	not-for-merge	tag 'v0.7.6' of https://github.com/yyx990803/vue
+882c16c76ec0790ccf60856385ea493c9369cd63	not-for-merge	tag 'v0.8.0' of https://github.com/yyx990803/vue
+f4a691a3ba3f30eefd531a4f47d9653757f10b3c	not-for-merge	tag 'v0.8.1' of https://github.com/yyx990803/vue
+ad60407d11b2dac95201c626b173eb980153e632	not-for-merge	tag 'v0.8.2' of https://github.com/yyx990803/vue
+4fdeba555f82a01cdc546610e002eb5c9695d347	not-for-merge	tag 'v0.8.3' of https://github.com/yyx990803/vue
+c71c6a4dde32c41aa388f6edebcd62b04f1df2c6	not-for-merge	tag 'v0.8.4' of https://github.com/yyx990803/vue
+cc5f98a91b4016d732227761533cc9f270c204d6	not-for-merge	tag 'v0.8.5' of https://github.com/yyx990803/vue
+eaa6b91f1463d63429b70344cb4c454f6cbd4694	not-for-merge	tag 'v0.8.6' of https://github.com/yyx990803/vue
+9bfb8b87b93327965b934b3077d08b539c177a28	not-for-merge	tag 'v0.8.7' of https://github.com/yyx990803/vue
+a701b9f402f33bc14f7847253ac919664f6b1da8	not-for-merge	tag 'v0.8.8' of https://github.com/yyx990803/vue
+fbaf56933a4844f251e28a1e2784b67ec5cb9afd	not-for-merge	tag 'v0.9.0' of https://github.com/yyx990803/vue
+15c3c8b9c56e9da11aa82809ac782a8c50a06a5a	not-for-merge	tag 'v0.9.1' of https://github.com/yyx990803/vue
+918797c7933a5dd2ff4b031c7cf7301e9751d7d9	not-for-merge	tag 'v0.9.2' of https://github.com/yyx990803/vue
+e1aad8fc83cd923703dc2bfa335b32879aa7be44	not-for-merge	tag 'v0.9.3' of https://github.com/yyx990803/vue
+8e9cbad2c3d6362b17cac553d099295bd6b8ed84	not-for-merge	branch '0.10.6' of https://github.com/yyx990803/vue
+98c622b1ecb1890d25672f5eb6d2ca85f11c1db5	not-for-merge	branch '0.11.0-rc' of https://github.com/yyx990803/vue
+7e767f953cd542e64b67e0aa25af8c96770d7eb7	not-for-merge	branch '0.11.0-rc2' of https://github.com/yyx990803/vue
+7163a9b63df5ffe898f395fb8bb31f2851d472f6	not-for-merge	branch '0.11.0-rc3' of https://github.com/yyx990803/vue
+5f6f0730df1b47aa39647ffb88108cb5423eeac9	not-for-merge	branch '0.11.9-rc' of https://github.com/yyx990803/vue
+a39476d72981c014a3cf030fa38ea2fddfbfb23f	not-for-merge	branch '0.12.0-beta' of https://github.com/yyx990803/vue
+3959b676e2abe6c081005d3f9388f92ffc3cd534	not-for-merge	branch 'async-component' of https://github.com/yyx990803/vue
+fb8ee54e9d8f730bc1b0161010d88379ad6c85ac	not-for-merge	branch 'csp' of https://github.com/yyx990803/vue
+69edc1ae02b230dbda22eeae53a4899fc06dff40	not-for-merge	branch 'dev' of https://github.com/yyx990803/vue
+5f27148eea85a915b2f0bb5f1a131324d7133635	not-for-merge	branch 'legacy-dev' of https://github.com/yyx990803/vue
+69edc1ae02b230dbda22eeae53a4899fc06dff40	not-for-merge	branch 'master' of https://github.com/yyx990803/vue
+5ad46ce4bda212dd79c52fb51b64f9aec74af34c	not-for-merge	branch 'memoized-computed-property' of https://github.com/yyx990803/vue
+63b35b24e7d50c6b04a48c938070205aaf6e1fe8	not-for-merge	branch 'next' of https://github.com/yyx990803/vue
+8a51e4824ead94654c0997910f6172367d3e1543	not-for-merge	branch 'stagger' of https://github.com/yyx990803/vue
+1c61718dd1c61b27717e2c1cf187f0ec4cf8d438	not-for-merge	branch 'transclude-refactor' of https://github.com/yyx990803/vue
+aaf0b48fa61dca1a52ff15bd311dace831fe4ab8	not-for-merge	'refs/pull/118/head' of https://github.com/yyx990803/vue
+5e006c82457c54db82263816e733815689e9a696	not-for-merge	'refs/pull/119/head' of https://github.com/yyx990803/vue
+9e5953a03e12010ba4fdb8130e0924e061699a04	not-for-merge	'refs/pull/119/merge' of https://github.com/yyx990803/vue
+03800902ca9295a469c9b33a5b3d38b546c75511	not-for-merge	'refs/pull/120/head' of https://github.com/yyx990803/vue
+0a64d2096ac6434f6636e82cf976da4ba2177696	not-for-merge	'refs/pull/120/merge' of https://github.com/yyx990803/vue
+03800902ca9295a469c9b33a5b3d38b546c75511	not-for-merge	'refs/pull/121/head' of https://github.com/yyx990803/vue
+174ceb2285ed1c92cc25ea0aa448538b529d5d2b	not-for-merge	'refs/pull/128/head' of https://github.com/yyx990803/vue
+81a487d6c5a7941dd5bfd980483b30d1f936404c	not-for-merge	'refs/pull/162/head' of https://github.com/yyx990803/vue
+54d2e000ab78bb1e06308ad270b52f857b854994	not-for-merge	'refs/pull/162/merge' of https://github.com/yyx990803/vue
+3df6343a81cd38c0fe401526b2ad545281b0d2e1	not-for-merge	'refs/pull/180/head' of https://github.com/yyx990803/vue
+28c4748c325dd4fd738e80f8921e9c8fc73c38a1	not-for-merge	'refs/pull/180/merge' of https://github.com/yyx990803/vue
+80dbce65eceaafd75af3cbb8eb5e34d8d7d6ba5e	not-for-merge	'refs/pull/181/head' of https://github.com/yyx990803/vue
+1a0d2170754168db52c582794e5b4cb5d06b4fd3	not-for-merge	'refs/pull/181/merge' of https://github.com/yyx990803/vue
+1cc2f5b3defb6659fd0b01ce2e6920d6eabe6ec4	not-for-merge	'refs/pull/182/head' of https://github.com/yyx990803/vue
+81880b9fef4a6bbdb9db622c2212004f46ce95cb	not-for-merge	'refs/pull/182/merge' of https://github.com/yyx990803/vue
+dbe26cd96e6dba950593e8861dd9801d2d2e0cbe	not-for-merge	'refs/pull/186/head' of https://github.com/yyx990803/vue
+38873d5771739ca31826e4e5060b29b3891aeffb	not-for-merge	'refs/pull/186/merge' of https://github.com/yyx990803/vue
+dbe26cd96e6dba950593e8861dd9801d2d2e0cbe	not-for-merge	'refs/pull/187/head' of https://github.com/yyx990803/vue
+4d21cf64a6b44daddb59f0c4d4fc3602636f09c1	not-for-merge	'refs/pull/187/merge' of https://github.com/yyx990803/vue
+057c0867c75b2f69a399234a874d226c7d6d76a6	not-for-merge	'refs/pull/249/head' of https://github.com/yyx990803/vue
+04a7ff6f7f7b137ebea45379cfd0fb7faa27e22c	not-for-merge	'refs/pull/261/head' of https://github.com/yyx990803/vue
+250969a000086f3cf89b60d294965afa7da09767	not-for-merge	'refs/pull/262/head' of https://github.com/yyx990803/vue
+c7409a2e3ce38c12d989aaea31fb5a50a80b8b53	not-for-merge	'refs/pull/262/merge' of https://github.com/yyx990803/vue
+a487821461148c9fa175a4b6bba622c4a97b679a	not-for-merge	'refs/pull/267/head' of https://github.com/yyx990803/vue
+9425bd3855a66e053cecb67bfec40f70d3f87f93	not-for-merge	'refs/pull/271/head' of https://github.com/yyx990803/vue
+d782cd362bbb6b9b83bb57b06b49f257edcb68aa	not-for-merge	'refs/pull/272/head' of https://github.com/yyx990803/vue
+574053847fd995e8921ee96a5124a01c0989c960	not-for-merge	'refs/pull/272/merge' of https://github.com/yyx990803/vue
+80c3c42da97f33f85e885481d035b4164f506ae6	not-for-merge	'refs/pull/283/head' of https://github.com/yyx990803/vue
+933c3a3689375cca774bb4973445f43d9102cd1d	not-for-merge	'refs/pull/283/merge' of https://github.com/yyx990803/vue
+079193acaaa08c83673670dc388f533300471166	not-for-merge	'refs/pull/298/head' of https://github.com/yyx990803/vue
+42ef96071041450737732868bf857cce57afb0eb	not-for-merge	'refs/pull/298/merge' of https://github.com/yyx990803/vue
+23f47750bd7363d1cef2cf7957b22b375a46b2e7	not-for-merge	'refs/pull/300/head' of https://github.com/yyx990803/vue
+22f9ea9c547e4d17246c4ccb208a59fbf4ae3f68	not-for-merge	'refs/pull/302/head' of https://github.com/yyx990803/vue
+93f7b743c5395da315e96647e1d68b829bcf2897	not-for-merge	'refs/pull/305/head' of https://github.com/yyx990803/vue
+faf58c6513b2ba5443fbcff84e19d81cc66943ad	not-for-merge	'refs/pull/305/merge' of https://github.com/yyx990803/vue
+93f7b743c5395da315e96647e1d68b829bcf2897	not-for-merge	'refs/pull/306/head' of https://github.com/yyx990803/vue
+b5b790f1cd83fb93ac13a8e15ee7f0af13c11b13	not-for-merge	'refs/pull/311/head' of https://github.com/yyx990803/vue
+00c04430cd66c86187606badc614c75de0cb23fe	not-for-merge	'refs/pull/311/merge' of https://github.com/yyx990803/vue
+a52d42ba9d711d41ef064d389d2c14dab8504628	not-for-merge	'refs/pull/326/head' of https://github.com/yyx990803/vue
+5f34f088fd607196a17a3db834fe91d68b95b4c6	not-for-merge	'refs/pull/327/head' of https://github.com/yyx990803/vue
+2d0e287e46707278d4a8ad9e4d649fbdd36ba8df	not-for-merge	'refs/pull/327/merge' of https://github.com/yyx990803/vue
+66f4708643438900bd217e089210fb1f5c5c5bff	not-for-merge	'refs/pull/336/head' of https://github.com/yyx990803/vue
+de373c99d4311d5cd59e56fb68688a6844b70e3c	not-for-merge	'refs/pull/336/merge' of https://github.com/yyx990803/vue
+d2e2e57dfb82ad1782a88bb83d61df40f375e4f5	not-for-merge	'refs/pull/343/head' of https://github.com/yyx990803/vue
+f99a830b7b43ac637845c924cac031db1f2c0aee	not-for-merge	'refs/pull/344/head' of https://github.com/yyx990803/vue
+cff912e5f9a902083c65d8387e066073ffbc0288	not-for-merge	'refs/pull/344/merge' of https://github.com/yyx990803/vue
+8b1ad176e861fa7095ee2197ea2e07a731d3d35a	not-for-merge	'refs/pull/347/head' of https://github.com/yyx990803/vue
+1e7c6f9ac6880a16263ab93bf8f5dec7d0e152f7	not-for-merge	'refs/pull/347/merge' of https://github.com/yyx990803/vue
+937ec1072a1973ff7a4b80846f4a50e629ecc194	not-for-merge	'refs/pull/354/head' of https://github.com/yyx990803/vue
+8a934be1725e5bb98de92d2724991e4887de7cb9	not-for-merge	'refs/pull/354/merge' of https://github.com/yyx990803/vue
+81e9edf81d7e332df7b900a9ff9797008a8d707e	not-for-merge	'refs/pull/376/head' of https://github.com/yyx990803/vue
+67314445a6fe1a792b0e11246dcad2771b89f2f7	not-for-merge	'refs/pull/385/head' of https://github.com/yyx990803/vue
+f2ca2b157a93e1fcc9ff353d21cd0492b65abec6	not-for-merge	'refs/pull/387/head' of https://github.com/yyx990803/vue
+031630b1454fa253f842db752feead67eeebce43	not-for-merge	'refs/pull/387/merge' of https://github.com/yyx990803/vue
+04d666de0efe925648b01a95e915299d76e288eb	not-for-merge	'refs/pull/389/head' of https://github.com/yyx990803/vue
+d7576079f2236f057c69f5911c91c8eac7288789	not-for-merge	'refs/pull/389/merge' of https://github.com/yyx990803/vue
+388fe79fdd6018842a49427c2342b118e78ab2b0	not-for-merge	'refs/pull/390/head' of https://github.com/yyx990803/vue
+49693c708eb36037c790b3094c937dcbc5edc7ac	not-for-merge	'refs/pull/417/head' of https://github.com/yyx990803/vue
+75b8d835743fb952c5b1d119dbe3ccc45a3498c0	not-for-merge	'refs/pull/417/merge' of https://github.com/yyx990803/vue
+f870cdc81377579e750c08f06e23bbaf0bacb988	not-for-merge	'refs/pull/422/head' of https://github.com/yyx990803/vue
+cd9d9915f393da4ee848f4e667b09ab017446cd7	not-for-merge	'refs/pull/451/head' of https://github.com/yyx990803/vue
+466219db0fa45f4f491c4767931e2936ce001c7c	not-for-merge	'refs/pull/469/head' of https://github.com/yyx990803/vue
+0dcc29f548e241d95b55a33cf691f6da8b1b1609	not-for-merge	'refs/pull/469/merge' of https://github.com/yyx990803/vue
+05207a3c2e72f449c8983cea5d3b203cf723dbca	not-for-merge	'refs/pull/511/head' of https://github.com/yyx990803/vue
+4e31c355f8cfcb65f959dcbb700221dee1394686	not-for-merge	'refs/pull/537/head' of https://github.com/yyx990803/vue
+751fbfeddfafaad021dd5fcf2f08716b887748f1	not-for-merge	'refs/pull/540/head' of https://github.com/yyx990803/vue
+83f1a1b9b1eb74ae1176e5ac4864f51227c9827f	not-for-merge	'refs/pull/540/merge' of https://github.com/yyx990803/vue
+3ab680f21f3d2e9cfdbf38421b996c25bd6939f3	not-for-merge	'refs/pull/547/head' of https://github.com/yyx990803/vue
+7b0bd12c536c9861a72c9ccf442a66e4ea6fbc0f	not-for-merge	'refs/pull/564/head' of https://github.com/yyx990803/vue
+cf918e8ae4c5d590eb9d0a14e6eaeae6ee5f9313	not-for-merge	'refs/pull/564/merge' of https://github.com/yyx990803/vue
+0c9c83a0790ae7dda5163c170c2cdc52f5020a52	not-for-merge	'refs/pull/572/head' of https://github.com/yyx990803/vue
+abfcfe18c2e1c10debc8ee8fa03b0993ac1497a8	not-for-merge	'refs/pull/572/merge' of https://github.com/yyx990803/vue
+b96e1b571ebf2748fc49936e6fdfa241c08293d7	not-for-merge	'refs/pull/605/head' of https://github.com/yyx990803/vue
+598ed1db5c0f630d6e07d9b1b1f25dce50883755	not-for-merge	'refs/pull/607/head' of https://github.com/yyx990803/vue
+923aee6de8d51e195e1db467481fba564fb7d614	not-for-merge	'refs/pull/608/head' of https://github.com/yyx990803/vue
+999d80201a23bf4db67b6a9419e497db506be1a9	not-for-merge	'refs/pull/650/head' of https://github.com/yyx990803/vue
+e7e96325edf774d9e7caef17b310a267b77c2d02	not-for-merge	'refs/pull/650/merge' of https://github.com/yyx990803/vue
+a98f5e7a412364c9ea2803c56714debdba5ccd53	not-for-merge	'refs/pull/683/head' of https://github.com/yyx990803/vue
+de072a0df5b831201618806a36115d84f4560b9c	not-for-merge	'refs/pull/683/merge' of https://github.com/yyx990803/vue
+36cfdb6eef99a1fd8f9be63c10fb3bb05eb6bfc6	not-for-merge	'refs/pull/691/head' of https://github.com/yyx990803/vue
+e2348ebd9275564764fd8fe43a3ad7780772ba60	not-for-merge	'refs/pull/70/head' of https://github.com/yyx990803/vue
+ba26a48bc98e5d236495646d2e522422ff1edc6d	not-for-merge	'refs/pull/70/merge' of https://github.com/yyx990803/vue
+a5624f906213963739cab0b33fac2bdbe5cf14b9	not-for-merge	'refs/pull/705/head' of https://github.com/yyx990803/vue
+9d6f99f8ccdf0bebb2f9f96b99102317cb8dc294	not-for-merge	'refs/pull/705/merge' of https://github.com/yyx990803/vue
+7b7c2e57cf0211d8a6c422796628f299065f6f65	not-for-merge	'refs/pull/709/head' of https://github.com/yyx990803/vue
+3ced67667bf14f170bf4688e1383ddca62dcb2f9	not-for-merge	'refs/pull/718/head' of https://github.com/yyx990803/vue
+8de1bb8bd2140813acb18ae5a0b01edb38c54ddd	not-for-merge	'refs/pull/719/head' of https://github.com/yyx990803/vue
+085abf8b115178530ebac516457a2a52a9ecc5f9	not-for-merge	'refs/pull/720/head' of https://github.com/yyx990803/vue
+97dcced6549a7dd4dce3fd446adb6fd7c508ea05	not-for-merge	'refs/pull/725/head' of https://github.com/yyx990803/vue
+95a308ff957efc3ef6459237d9fc6551ba9ae4ee	not-for-merge	'refs/pull/731/head' of https://github.com/yyx990803/vue
+6330d147833faa910a833e5eef8f47532753be0e	not-for-merge	'refs/pull/731/merge' of https://github.com/yyx990803/vue
+f6ddac020fb12d0924bb5bdf4da8d3e997fd4813	not-for-merge	'refs/pull/745/head' of https://github.com/yyx990803/vue
+a4a12a879ed0a54c347602742c7b90da362e60c4	not-for-merge	'refs/pull/745/merge' of https://github.com/yyx990803/vue
+0fcd867979fac7e4e7075f66aa678eb3765472c9	not-for-merge	'refs/pull/753/head' of https://github.com/yyx990803/vue
+042fdeb1bae5acb0b4607d72c519a9947bb3352f	not-for-merge	'refs/pull/753/merge' of https://github.com/yyx990803/vue
+523372bb5e620a3988ee11f7b5115f963a0017ae	not-for-merge	'refs/pull/755/head' of https://github.com/yyx990803/vue
+2b3b2f9f63c0aed2d1a3f3af2a9bb0c0638c7812	not-for-merge	'refs/pull/755/merge' of https://github.com/yyx990803/vue
+fe1f6d0de0aa83d1d2ee644537ab92400398b657	not-for-merge	'refs/pull/756/head' of https://github.com/yyx990803/vue
+85acad3059dff31cad801bbf1076782b4e3a70dd	not-for-merge	'refs/pull/756/merge' of https://github.com/yyx990803/vue
+168aaa9e4eb8caeba430a22f88b76324d3b1aebe	not-for-merge	'refs/pull/757/head' of https://github.com/yyx990803/vue
+1288a2ba189cebb17f70610aa84716c9dbe4ce35	not-for-merge	'refs/pull/757/merge' of https://github.com/yyx990803/vue
+570d3af2a979db127ab9c0791d3fd471765d9bdc	not-for-merge	'refs/pull/762/head' of https://github.com/yyx990803/vue
+79d12ad0af5555a9ff05e5fb720c21978eba8018	not-for-merge	'refs/pull/764/head' of https://github.com/yyx990803/vue
+4bd07740238fff985568dfc1ad3ac55474fea0ee	not-for-merge	'refs/pull/764/merge' of https://github.com/yyx990803/vue
+0f4bfb08aea437b5d6dc6721711434a2120c5f97	not-for-merge	'refs/pull/766/head' of https://github.com/yyx990803/vue
+405e95929cf9cc11613aadbcecc9aa1fc1e0f772	not-for-merge	'refs/pull/767/head' of https://github.com/yyx990803/vue
+aaa008b5a7003a2ea12d621cda72cf7993af165c	not-for-merge	'refs/pull/767/merge' of https://github.com/yyx990803/vue
+405e95929cf9cc11613aadbcecc9aa1fc1e0f772	not-for-merge	'refs/pull/768/head' of https://github.com/yyx990803/vue
+8eed69c6de9041a27f9370adf25d8a7bd3b380ce	not-for-merge	'refs/pull/772/head' of https://github.com/yyx990803/vue
+10d5462f329e1d468ed7c8dda177e7137e0f3cdd	not-for-merge	'refs/pull/772/merge' of https://github.com/yyx990803/vue
+9c652e4439e869858d2daa5bd3d17405eb1ba79b	not-for-merge	'refs/pull/780/head' of https://github.com/yyx990803/vue
+676669cecd9414e6e978a6493a1b1099833108ab	not-for-merge	'refs/pull/783/head' of https://github.com/yyx990803/vue
+a3cdcacad44c6570b605406f74a58faf6421300f	not-for-merge	'refs/pull/787/head' of https://github.com/yyx990803/vue
+9587d1051ebf994cec807c6ae3a39bf215158955	not-for-merge	'refs/pull/808/head' of https://github.com/yyx990803/vue
+4a459e882dbf09c81f6378edcfb7dca4b21339f8	not-for-merge	'refs/pull/834/head' of https://github.com/yyx990803/vue
+bdc84731db52be95e9d1b1652799a45cd0317737	not-for-merge	'refs/pull/834/merge' of https://github.com/yyx990803/vue
+0946939f364d9119daeb3857efb283c8a22dde6c	not-for-merge	'refs/pull/836/head' of https://github.com/yyx990803/vue
+459d780a731fd3bd0e663f78a1a23793054b4d2a	not-for-merge	'refs/pull/836/merge' of https://github.com/yyx990803/vue
+45110f482e6ba6d778b1e94114e1d5f1667e26af	not-for-merge	'refs/pull/839/head' of https://github.com/yyx990803/vue
+6cfdb8e1a92515098fcf7bda1b5fb7e1a32a0f3d	not-for-merge	'refs/pull/839/merge' of https://github.com/yyx990803/vue
+26b5acdc796651f54541e0c60ae58dd4e4a611d7	not-for-merge	'refs/pull/849/head' of https://github.com/yyx990803/vue
+748d8f81ed802d53bd2ccbac6f2276432e173996	not-for-merge	'refs/pull/851/head' of https://github.com/yyx990803/vue
+008a1ecd7b44dff742b9acef4f4b85afadd95f22	not-for-merge	'refs/pull/861/head' of https://github.com/yyx990803/vue
+e4a1cfab77b6789283d64aa224ac9c5c190bbef6	not-for-merge	'refs/pull/881/head' of https://github.com/yyx990803/vue
+45f061d239f59c5e035a0675a4d61f91e6b6b145	not-for-merge	'refs/pull/882/head' of https://github.com/yyx990803/vue
+3b22f700430df60d4369b530ab972a2968084ad7	not-for-merge	'refs/pull/882/merge' of https://github.com/yyx990803/vue
+cf86633b532ea4f42370900647d498ebf90e305f	not-for-merge	'refs/pull/89/head' of https://github.com/yyx990803/vue
+3a2c8e1193a4882ec8537b0613c255b4ee3e8cc5	not-for-merge	'refs/pull/89/merge' of https://github.com/yyx990803/vue
+2333f426133d70ce0ebda62b51e36348426b0be8	not-for-merge	'refs/pull/892/head' of https://github.com/yyx990803/vue
+5a4e1b7e97faaaa83a871b568788eebb59a5f14d	not-for-merge	'refs/pull/893/head' of https://github.com/yyx990803/vue
+b44185480d71ee1403088d19e236e1b1f1a1e25a	not-for-merge	'refs/pull/894/head' of https://github.com/yyx990803/vue
+911839067a4d467631486046ff13cb77f3ab095e	not-for-merge	'refs/pull/894/merge' of https://github.com/yyx990803/vue
+7bb8ef1525009370230d7a569ecc3bbf86656ea2	not-for-merge	'refs/pull/90/head' of https://github.com/yyx990803/vue
+43b40f48c3a639c60bb2ce5ce8db56b211d32547	not-for-merge	'refs/pull/90/merge' of https://github.com/yyx990803/vue
+0249e1e09e8aa219f432c85c2de0df2fdf1ab95e	not-for-merge	'refs/pull/901/head' of https://github.com/yyx990803/vue
+04b1864c820237ea3192e48f23cc2b6dd8d6807b	not-for-merge	'refs/pull/901/merge' of https://github.com/yyx990803/vue
+93837c2310c179fc941c4f7d3089318109358cd2	not-for-merge	'refs/pull/902/head' of https://github.com/yyx990803/vue
+5ff379dfad5dc992ca7e3d1122876dccd7ee3406	not-for-merge	'refs/pull/905/head' of https://github.com/yyx990803/vue
+4dfdbe4c03bb6ef5c64afb195d2a8e0265d56dee	not-for-merge	'refs/pull/91/head' of https://github.com/yyx990803/vue
+6e8d1ced8f88f18c7077b13c8e647b5b48eef2bf	not-for-merge	'refs/pull/92/head' of https://github.com/yyx990803/vue
+7d5637566059270548a6551b486a2744568d5667	not-for-merge	'refs/pull/926/head' of https://github.com/yyx990803/vue
+e3c9363ab73aa0c911e1e6971247e0fe5753762d	not-for-merge	'refs/pull/937/head' of https://github.com/yyx990803/vue
+3f52ccb0e750609c6af325bd8b75c779416a7d8f	not-for-merge	'refs/pull/94/head' of https://github.com/yyx990803/vue
+134fe562332e99b376d584a3a9d8695623aaa7c5	not-for-merge	'refs/pull/94/merge' of https://github.com/yyx990803/vue
+ddd5d5f0550f7d25220c0c1498f797f1dabfebf8	not-for-merge	'refs/pull/982/head' of https://github.com/yyx990803/vue
+b6aafeea74a90c701cb0137781038ade8e8e032c	not-for-merge	'refs/pull/982/merge' of https://github.com/yyx990803/vue
+8b3b8fbd0751c46c7c149383bb4e072be0d01dff	not-for-merge	tag '0.10.0-rc' of https://github.com/yyx990803/vue
+5bc3e30b694dc3b6aeeb87c24f88b9cd7a7259d6	not-for-merge	tag '0.11.0' of https://github.com/yyx990803/vue
+512d265cbd656da5e19cf1d5f1a43f321b6488a5	not-for-merge	tag '0.11.0-rc' of https://github.com/yyx990803/vue
+7e767f953cd542e64b67e0aa25af8c96770d7eb7	not-for-merge	tag '0.11.0-rc2' of https://github.com/yyx990803/vue
+7163a9b63df5ffe898f395fb8bb31f2851d472f6	not-for-merge	tag '0.11.0-rc3' of https://github.com/yyx990803/vue
+0df318c29d7e10bfa8e5c7ca31837af91ff3174c	not-for-merge	tag '0.11.1' of https://github.com/yyx990803/vue
+d257c81a5889d45012f6df39873fba3f8697f0cc	not-for-merge	tag '0.11.10' of https://github.com/yyx990803/vue
+51cfffbdba03b937f0ef8efe40a87521852d601e	not-for-merge	tag '0.11.2' of https://github.com/yyx990803/vue
+fe35b5101fb0bb7fc94025f62b857a1404bffb7d	not-for-merge	tag '0.11.3' of https://github.com/yyx990803/vue
+19e0223f5faa2592b37434e9936f2885a5d9cb2f	not-for-merge	tag '0.11.4' of https://github.com/yyx990803/vue
+a06cd65e1c72beea48485a2a5a91c579c0752fa7	not-for-merge	tag '0.11.5' of https://github.com/yyx990803/vue
+6c3b290bb051e16ce5fc0897638b2eb4abae0214	not-for-merge	tag '0.11.6' of https://github.com/yyx990803/vue
+563b0b965c4c6724729ddfd42598184f13c8b4f7	not-for-merge	tag '0.11.7' of https://github.com/yyx990803/vue
+6c841059d2893d383befeed0caf8090d5f0e8b88	not-for-merge	tag '0.11.8' of https://github.com/yyx990803/vue
+7f7e36bd4a298623d656ca7cab5f23976756de15	not-for-merge	tag '0.11.9' of https://github.com/yyx990803/vue
+66b124b7ecf7916ac2506fb5bd8006858006fb35	not-for-merge	tag '0.12.0' of https://github.com/yyx990803/vue
+0a69a55eee9b3c705dfc8953876d1c6190c2194c	not-for-merge	tag '0.12.0-beta2' of https://github.com/yyx990803/vue
+8f742d5fe3b4e9f1477fadd0f1e1ed86eca0b548	not-for-merge	tag '0.12.0-beta3' of https://github.com/yyx990803/vue
+f3552df2b0bc9777e9bb5c866ffda7e70e6b2fa3	not-for-merge	tag '0.12.0-beta4' of https://github.com/yyx990803/vue
+a39476d72981c014a3cf030fa38ea2fddfbfb23f	not-for-merge	tag '0.12.0-beta5' of https://github.com/yyx990803/vue
+2ed38c9f75a20464e6949f39af079c8643ac8d14	not-for-merge	tag '0.12.0-csp' of https://github.com/yyx990803/vue
+61eaa271c0694cc4cf7296637b55b5481dbd3f98	not-for-merge	tag '0.12.0-rc' of https://github.com/yyx990803/vue
+597fa8be89af8ce4d1939b19a9c47a44daeb506b	not-for-merge	tag '0.12.0-rc2' of https://github.com/yyx990803/vue
+2eedc8d76a6015def406c062221bafe2d74e2508	not-for-merge	tag '0.12.1' of https://github.com/yyx990803/vue
+9aecbfbb9938fd317cfdeab28eb397c0b43fdbc0	not-for-merge	tag '0.12.1-csp' of https://github.com/yyx990803/vue
+e8d82d2840d314970568e7c576b100aed7d0cd07	not-for-merge	tag '0.12.1-csp.1' of https://github.com/yyx990803/vue
+b3c529992e322daa4c3a486137730078edd22ffd	not-for-merge	tag '0.12.1-csp.2' of https://github.com/yyx990803/vue
+54f860d63fb4bf7d664fdaae74c5678262c715a7	not-for-merge	tag '0.12.2' of https://github.com/yyx990803/vue
+ecc883131c5838562c7f8a853ed945dd431e5e7b	not-for-merge	tag '0.12.3' of https://github.com/yyx990803/vue
+e614d9c3bbc0d81018fccd266f64195711b72910	not-for-merge	tag '0.12.4' of https://github.com/yyx990803/vue
+eb646ecdbffd88e03d70a33f121ad3ff732ccce8	not-for-merge	tag '0.12.5' of https://github.com/yyx990803/vue
+8bade9382a95a8d59764bb701d50e34253a09365	not-for-merge	tag '0.12.6' of https://github.com/yyx990803/vue
+5eb9a5923a30f84ba07a1290761b78b707726c3f	not-for-merge	tag '0.12.6-csp' of https://github.com/yyx990803/vue
+69edc1ae02b230dbda22eeae53a4899fc06dff40	not-for-merge	tag '0.12.7' of https://github.com/yyx990803/vue
+fb8ee54e9d8f730bc1b0161010d88379ad6c85ac	not-for-merge	tag '0.12.7-csp' of https://github.com/yyx990803/vue
+218557cdec830a629252f4a9e2643973dc1f1d2d	not-for-merge	tag '0.6.0' of https://github.com/yyx990803/vue
+cd53688d5364aef64aafc986c02e491f8cf90f82	not-for-merge	tag 'v0.10.0' of https://github.com/yyx990803/vue
+12f1ca2b93176e81c5f208437e1a6af745dd7da9	not-for-merge	tag 'v0.10.1' of https://github.com/yyx990803/vue
+e1ea3fc840f1b6c9ebecced35abcb48074b08c4b	not-for-merge	tag 'v0.10.2' of https://github.com/yyx990803/vue
+1eea0df8981a8933976b08e716d84da2b8453996	not-for-merge	tag 'v0.10.3' of https://github.com/yyx990803/vue
+d3758fc7e17a0e115092c5fc89264ec7fff7ea39	not-for-merge	tag 'v0.10.4' of https://github.com/yyx990803/vue
+fe996b388971b014279b1f90df26ef95d8b00f05	not-for-merge	tag 'v0.10.5' of https://github.com/yyx990803/vue
+cf37f7efd6d63c0aa46b50c624816e645ddd7edd	not-for-merge	tag 'v0.10.6' of https://github.com/yyx990803/vue
+f4861ca9905a170b9a4b185e8a2038dc7c11c58e	not-for-merge	tag 'v0.7.0' of https://github.com/yyx990803/vue
+590a7ee55b655f166ecdf8e7a5e22dab7a9e6dd7	not-for-merge	tag 'v0.7.1' of https://github.com/yyx990803/vue
+e78fb82212ac229c91fc8b1f09a84b24f577541a	not-for-merge	tag 'v0.7.2' of https://github.com/yyx990803/vue
+dcc839a4314de8825f7087f00c4e40ea2d22b46f	not-for-merge	tag 'v0.7.3' of https://github.com/yyx990803/vue
+8c7ee32caa3b118e66e33bf6128218127283334f	not-for-merge	tag 'v0.7.4' of https://github.com/yyx990803/vue
+eb111394f731519466e9230d9e92f2bd5687656d	not-for-merge	tag 'v0.7.5' of https://github.com/yyx990803/vue
+bf5c14b9e69e1069caebabe03feef565da065fc7	not-for-merge	tag 'v0.7.6' of https://github.com/yyx990803/vue
+882c16c76ec0790ccf60856385ea493c9369cd63	not-for-merge	tag 'v0.8.0' of https://github.com/yyx990803/vue
+f4a691a3ba3f30eefd531a4f47d9653757f10b3c	not-for-merge	tag 'v0.8.1' of https://github.com/yyx990803/vue
+ad60407d11b2dac95201c626b173eb980153e632	not-for-merge	tag 'v0.8.2' of https://github.com/yyx990803/vue
+4fdeba555f82a01cdc546610e002eb5c9695d347	not-for-merge	tag 'v0.8.3' of https://github.com/yyx990803/vue
+c71c6a4dde32c41aa388f6edebcd62b04f1df2c6	not-for-merge	tag 'v0.8.4' of https://github.com/yyx990803/vue
+cc5f98a91b4016d732227761533cc9f270c204d6	not-for-merge	tag 'v0.8.5' of https://github.com/yyx990803/vue
+eaa6b91f1463d63429b70344cb4c454f6cbd4694	not-for-merge	tag 'v0.8.6' of https://github.com/yyx990803/vue
+9bfb8b87b93327965b934b3077d08b539c177a28	not-for-merge	tag 'v0.8.7' of https://github.com/yyx990803/vue
+a701b9f402f33bc14f7847253ac919664f6b1da8	not-for-merge	tag 'v0.8.8' of https://github.com/yyx990803/vue
+fbaf56933a4844f251e28a1e2784b67ec5cb9afd	not-for-merge	tag 'v0.9.0' of https://github.com/yyx990803/vue
+15c3c8b9c56e9da11aa82809ac782a8c50a06a5a	not-for-merge	tag 'v0.9.1' of https://github.com/yyx990803/vue
+918797c7933a5dd2ff4b031c7cf7301e9751d7d9	not-for-merge	tag 'v0.9.2' of https://github.com/yyx990803/vue
+e1aad8fc83cd923703dc2bfa335b32879aa7be44	not-for-merge	tag 'v0.9.3' of https://github.com/yyx990803/vue
+8e9cbad2c3d6362b17cac553d099295bd6b8ed84	not-for-merge	branch '0.10.6' of https://github.com/yyx990803/vue
+98c622b1ecb1890d25672f5eb6d2ca85f11c1db5	not-for-merge	branch '0.11.0-rc' of https://github.com/yyx990803/vue
+7e767f953cd542e64b67e0aa25af8c96770d7eb7	not-for-merge	branch '0.11.0-rc2' of https://github.com/yyx990803/vue
+7163a9b63df5ffe898f395fb8bb31f2851d472f6	not-for-merge	branch '0.11.0-rc3' of https://github.com/yyx990803/vue
+5f6f0730df1b47aa39647ffb88108cb5423eeac9	not-for-merge	branch '0.11.9-rc' of https://github.com/yyx990803/vue
+a39476d72981c014a3cf030fa38ea2fddfbfb23f	not-for-merge	branch '0.12.0-beta' of https://github.com/yyx990803/vue
+3959b676e2abe6c081005d3f9388f92ffc3cd534	not-for-merge	branch 'async-component' of https://github.com/yyx990803/vue
+fb8ee54e9d8f730bc1b0161010d88379ad6c85ac	not-for-merge	branch 'csp' of https://github.com/yyx990803/vue
+0d3b26455d37d09112fc33d05d9e0aa354984f15	not-for-merge	branch 'dev' of https://github.com/yyx990803/vue
+5f27148eea85a915b2f0bb5f1a131324d7133635	not-for-merge	branch 'legacy-dev' of https://github.com/yyx990803/vue
+69edc1ae02b230dbda22eeae53a4899fc06dff40	not-for-merge	branch 'master' of https://github.com/yyx990803/vue
+5ad46ce4bda212dd79c52fb51b64f9aec74af34c	not-for-merge	branch 'memoized-computed-property' of https://github.com/yyx990803/vue
+63b35b24e7d50c6b04a48c938070205aaf6e1fe8	not-for-merge	branch 'next' of https://github.com/yyx990803/vue
+8a51e4824ead94654c0997910f6172367d3e1543	not-for-merge	branch 'stagger' of https://github.com/yyx990803/vue
+1c61718dd1c61b27717e2c1cf187f0ec4cf8d438	not-for-merge	branch 'transclude-refactor' of https://github.com/yyx990803/vue
+aaf0b48fa61dca1a52ff15bd311dace831fe4ab8	not-for-merge	'refs/pull/118/head' of https://github.com/yyx990803/vue
+5e006c82457c54db82263816e733815689e9a696	not-for-merge	'refs/pull/119/head' of https://github.com/yyx990803/vue
+9e5953a03e12010ba4fdb8130e0924e061699a04	not-for-merge	'refs/pull/119/merge' of https://github.com/yyx990803/vue
+03800902ca9295a469c9b33a5b3d38b546c75511	not-for-merge	'refs/pull/120/head' of https://github.com/yyx990803/vue
+0a64d2096ac6434f6636e82cf976da4ba2177696	not-for-merge	'refs/pull/120/merge' of https://github.com/yyx990803/vue
+03800902ca9295a469c9b33a5b3d38b546c75511	not-for-merge	'refs/pull/121/head' of https://github.com/yyx990803/vue
+174ceb2285ed1c92cc25ea0aa448538b529d5d2b	not-for-merge	'refs/pull/128/head' of https://github.com/yyx990803/vue
+81a487d6c5a7941dd5bfd980483b30d1f936404c	not-for-merge	'refs/pull/162/head' of https://github.com/yyx990803/vue
+54d2e000ab78bb1e06308ad270b52f857b854994	not-for-merge	'refs/pull/162/merge' of https://github.com/yyx990803/vue
+3df6343a81cd38c0fe401526b2ad545281b0d2e1	not-for-merge	'refs/pull/180/head' of https://github.com/yyx990803/vue
+28c4748c325dd4fd738e80f8921e9c8fc73c38a1	not-for-merge	'refs/pull/180/merge' of https://github.com/yyx990803/vue
+80dbce65eceaafd75af3cbb8eb5e34d8d7d6ba5e	not-for-merge	'refs/pull/181/head' of https://github.com/yyx990803/vue
+1a0d2170754168db52c582794e5b4cb5d06b4fd3	not-for-merge	'refs/pull/181/merge' of https://github.com/yyx990803/vue
+1cc2f5b3defb6659fd0b01ce2e6920d6eabe6ec4	not-for-merge	'refs/pull/182/head' of https://github.com/yyx990803/vue
+81880b9fef4a6bbdb9db622c2212004f46ce95cb	not-for-merge	'refs/pull/182/merge' of https://github.com/yyx990803/vue
+dbe26cd96e6dba950593e8861dd9801d2d2e0cbe	not-for-merge	'refs/pull/186/head' of https://github.com/yyx990803/vue
+38873d5771739ca31826e4e5060b29b3891aeffb	not-for-merge	'refs/pull/186/merge' of https://github.com/yyx990803/vue
+dbe26cd96e6dba950593e8861dd9801d2d2e0cbe	not-for-merge	'refs/pull/187/head' of https://github.com/yyx990803/vue
+4d21cf64a6b44daddb59f0c4d4fc3602636f09c1	not-for-merge	'refs/pull/187/merge' of https://github.com/yyx990803/vue
+057c0867c75b2f69a399234a874d226c7d6d76a6	not-for-merge	'refs/pull/249/head' of https://github.com/yyx990803/vue
+04a7ff6f7f7b137ebea45379cfd0fb7faa27e22c	not-for-merge	'refs/pull/261/head' of https://github.com/yyx990803/vue
+250969a000086f3cf89b60d294965afa7da09767	not-for-merge	'refs/pull/262/head' of https://github.com/yyx990803/vue
+c7409a2e3ce38c12d989aaea31fb5a50a80b8b53	not-for-merge	'refs/pull/262/merge' of https://github.com/yyx990803/vue
+a487821461148c9fa175a4b6bba622c4a97b679a	not-for-merge	'refs/pull/267/head' of https://github.com/yyx990803/vue
+9425bd3855a66e053cecb67bfec40f70d3f87f93	not-for-merge	'refs/pull/271/head' of https://github.com/yyx990803/vue
+d782cd362bbb6b9b83bb57b06b49f257edcb68aa	not-for-merge	'refs/pull/272/head' of https://github.com/yyx990803/vue
+574053847fd995e8921ee96a5124a01c0989c960	not-for-merge	'refs/pull/272/merge' of https://github.com/yyx990803/vue
+80c3c42da97f33f85e885481d035b4164f506ae6	not-for-merge	'refs/pull/283/head' of https://github.com/yyx990803/vue
+933c3a3689375cca774bb4973445f43d9102cd1d	not-for-merge	'refs/pull/283/merge' of https://github.com/yyx990803/vue
+079193acaaa08c83673670dc388f533300471166	not-for-merge	'refs/pull/298/head' of https://github.com/yyx990803/vue
+42ef96071041450737732868bf857cce57afb0eb	not-for-merge	'refs/pull/298/merge' of https://github.com/yyx990803/vue
+23f47750bd7363d1cef2cf7957b22b375a46b2e7	not-for-merge	'refs/pull/300/head' of https://github.com/yyx990803/vue
+22f9ea9c547e4d17246c4ccb208a59fbf4ae3f68	not-for-merge	'refs/pull/302/head' of https://github.com/yyx990803/vue
+93f7b743c5395da315e96647e1d68b829bcf2897	not-for-merge	'refs/pull/305/head' of https://github.com/yyx990803/vue
+faf58c6513b2ba5443fbcff84e19d81cc66943ad	not-for-merge	'refs/pull/305/merge' of https://github.com/yyx990803/vue
+93f7b743c5395da315e96647e1d68b829bcf2897	not-for-merge	'refs/pull/306/head' of https://github.com/yyx990803/vue
+b5b790f1cd83fb93ac13a8e15ee7f0af13c11b13	not-for-merge	'refs/pull/311/head' of https://github.com/yyx990803/vue
+00c04430cd66c86187606badc614c75de0cb23fe	not-for-merge	'refs/pull/311/merge' of https://github.com/yyx990803/vue
+a52d42ba9d711d41ef064d389d2c14dab8504628	not-for-merge	'refs/pull/326/head' of https://github.com/yyx990803/vue
+5f34f088fd607196a17a3db834fe91d68b95b4c6	not-for-merge	'refs/pull/327/head' of https://github.com/yyx990803/vue
+2d0e287e46707278d4a8ad9e4d649fbdd36ba8df	not-for-merge	'refs/pull/327/merge' of https://github.com/yyx990803/vue
+66f4708643438900bd217e089210fb1f5c5c5bff	not-for-merge	'refs/pull/336/head' of https://github.com/yyx990803/vue
+de373c99d4311d5cd59e56fb68688a6844b70e3c	not-for-merge	'refs/pull/336/merge' of https://github.com/yyx990803/vue
+d2e2e57dfb82ad1782a88bb83d61df40f375e4f5	not-for-merge	'refs/pull/343/head' of https://github.com/yyx990803/vue
+f99a830b7b43ac637845c924cac031db1f2c0aee	not-for-merge	'refs/pull/344/head' of https://github.com/yyx990803/vue
+cff912e5f9a902083c65d8387e066073ffbc0288	not-for-merge	'refs/pull/344/merge' of https://github.com/yyx990803/vue
+8b1ad176e861fa7095ee2197ea2e07a731d3d35a	not-for-merge	'refs/pull/347/head' of https://github.com/yyx990803/vue
+1e7c6f9ac6880a16263ab93bf8f5dec7d0e152f7	not-for-merge	'refs/pull/347/merge' of https://github.com/yyx990803/vue
+937ec1072a1973ff7a4b80846f4a50e629ecc194	not-for-merge	'refs/pull/354/head' of https://github.com/yyx990803/vue
+8a934be1725e5bb98de92d2724991e4887de7cb9	not-for-merge	'refs/pull/354/merge' of https://github.com/yyx990803/vue
+81e9edf81d7e332df7b900a9ff9797008a8d707e	not-for-merge	'refs/pull/376/head' of https://github.com/yyx990803/vue
+67314445a6fe1a792b0e11246dcad2771b89f2f7	not-for-merge	'refs/pull/385/head' of https://github.com/yyx990803/vue
+f2ca2b157a93e1fcc9ff353d21cd0492b65abec6	not-for-merge	'refs/pull/387/head' of https://github.com/yyx990803/vue
+031630b1454fa253f842db752feead67eeebce43	not-for-merge	'refs/pull/387/merge' of https://github.com/yyx990803/vue
+04d666de0efe925648b01a95e915299d76e288eb	not-for-merge	'refs/pull/389/head' of https://github.com/yyx990803/vue
+d7576079f2236f057c69f5911c91c8eac7288789	not-for-merge	'refs/pull/389/merge' of https://github.com/yyx990803/vue
+388fe79fdd6018842a49427c2342b118e78ab2b0	not-for-merge	'refs/pull/390/head' of https://github.com/yyx990803/vue
+49693c708eb36037c790b3094c937dcbc5edc7ac	not-for-merge	'refs/pull/417/head' of https://github.com/yyx990803/vue
+75b8d835743fb952c5b1d119dbe3ccc45a3498c0	not-for-merge	'refs/pull/417/merge' of https://github.com/yyx990803/vue
+f870cdc81377579e750c08f06e23bbaf0bacb988	not-for-merge	'refs/pull/422/head' of https://github.com/yyx990803/vue
+cd9d9915f393da4ee848f4e667b09ab017446cd7	not-for-merge	'refs/pull/451/head' of https://github.com/yyx990803/vue
+466219db0fa45f4f491c4767931e2936ce001c7c	not-for-merge	'refs/pull/469/head' of https://github.com/yyx990803/vue
+0dcc29f548e241d95b55a33cf691f6da8b1b1609	not-for-merge	'refs/pull/469/merge' of https://github.com/yyx990803/vue
+05207a3c2e72f449c8983cea5d3b203cf723dbca	not-for-merge	'refs/pull/511/head' of https://github.com/yyx990803/vue
+4e31c355f8cfcb65f959dcbb700221dee1394686	not-for-merge	'refs/pull/537/head' of https://github.com/yyx990803/vue
+751fbfeddfafaad021dd5fcf2f08716b887748f1	not-for-merge	'refs/pull/540/head' of https://github.com/yyx990803/vue
+83f1a1b9b1eb74ae1176e5ac4864f51227c9827f	not-for-merge	'refs/pull/540/merge' of https://github.com/yyx990803/vue
+3ab680f21f3d2e9cfdbf38421b996c25bd6939f3	not-for-merge	'refs/pull/547/head' of https://github.com/yyx990803/vue
+7b0bd12c536c9861a72c9ccf442a66e4ea6fbc0f	not-for-merge	'refs/pull/564/head' of https://github.com/yyx990803/vue
+cf918e8ae4c5d590eb9d0a14e6eaeae6ee5f9313	not-for-merge	'refs/pull/564/merge' of https://github.com/yyx990803/vue
+0c9c83a0790ae7dda5163c170c2cdc52f5020a52	not-for-merge	'refs/pull/572/head' of https://github.com/yyx990803/vue
+abfcfe18c2e1c10debc8ee8fa03b0993ac1497a8	not-for-merge	'refs/pull/572/merge' of https://github.com/yyx990803/vue
+b96e1b571ebf2748fc49936e6fdfa241c08293d7	not-for-merge	'refs/pull/605/head' of https://github.com/yyx990803/vue
+598ed1db5c0f630d6e07d9b1b1f25dce50883755	not-for-merge	'refs/pull/607/head' of https://github.com/yyx990803/vue
+923aee6de8d51e195e1db467481fba564fb7d614	not-for-merge	'refs/pull/608/head' of https://github.com/yyx990803/vue
+999d80201a23bf4db67b6a9419e497db506be1a9	not-for-merge	'refs/pull/650/head' of https://github.com/yyx990803/vue
+e7e96325edf774d9e7caef17b310a267b77c2d02	not-for-merge	'refs/pull/650/merge' of https://github.com/yyx990803/vue
+a98f5e7a412364c9ea2803c56714debdba5ccd53	not-for-merge	'refs/pull/683/head' of https://github.com/yyx990803/vue
+de072a0df5b831201618806a36115d84f4560b9c	not-for-merge	'refs/pull/683/merge' of https://github.com/yyx990803/vue
+36cfdb6eef99a1fd8f9be63c10fb3bb05eb6bfc6	not-for-merge	'refs/pull/691/head' of https://github.com/yyx990803/vue
+e2348ebd9275564764fd8fe43a3ad7780772ba60	not-for-merge	'refs/pull/70/head' of https://github.com/yyx990803/vue
+ba26a48bc98e5d236495646d2e522422ff1edc6d	not-for-merge	'refs/pull/70/merge' of https://github.com/yyx990803/vue
+a5624f906213963739cab0b33fac2bdbe5cf14b9	not-for-merge	'refs/pull/705/head' of https://github.com/yyx990803/vue
+9d6f99f8ccdf0bebb2f9f96b99102317cb8dc294	not-for-merge	'refs/pull/705/merge' of https://github.com/yyx990803/vue
+7b7c2e57cf0211d8a6c422796628f299065f6f65	not-for-merge	'refs/pull/709/head' of https://github.com/yyx990803/vue
+3ced67667bf14f170bf4688e1383ddca62dcb2f9	not-for-merge	'refs/pull/718/head' of https://github.com/yyx990803/vue
+8de1bb8bd2140813acb18ae5a0b01edb38c54ddd	not-for-merge	'refs/pull/719/head' of https://github.com/yyx990803/vue
+085abf8b115178530ebac516457a2a52a9ecc5f9	not-for-merge	'refs/pull/720/head' of https://github.com/yyx990803/vue
+97dcced6549a7dd4dce3fd446adb6fd7c508ea05	not-for-merge	'refs/pull/725/head' of https://github.com/yyx990803/vue
+95a308ff957efc3ef6459237d9fc6551ba9ae4ee	not-for-merge	'refs/pull/731/head' of https://github.com/yyx990803/vue
+6330d147833faa910a833e5eef8f47532753be0e	not-for-merge	'refs/pull/731/merge' of https://github.com/yyx990803/vue
+f6ddac020fb12d0924bb5bdf4da8d3e997fd4813	not-for-merge	'refs/pull/745/head' of https://github.com/yyx990803/vue
+a4a12a879ed0a54c347602742c7b90da362e60c4	not-for-merge	'refs/pull/745/merge' of https://github.com/yyx990803/vue
+0fcd867979fac7e4e7075f66aa678eb3765472c9	not-for-merge	'refs/pull/753/head' of https://github.com/yyx990803/vue
+042fdeb1bae5acb0b4607d72c519a9947bb3352f	not-for-merge	'refs/pull/753/merge' of https://github.com/yyx990803/vue
+523372bb5e620a3988ee11f7b5115f963a0017ae	not-for-merge	'refs/pull/755/head' of https://github.com/yyx990803/vue
+2b3b2f9f63c0aed2d1a3f3af2a9bb0c0638c7812	not-for-merge	'refs/pull/755/merge' of https://github.com/yyx990803/vue
+fe1f6d0de0aa83d1d2ee644537ab92400398b657	not-for-merge	'refs/pull/756/head' of https://github.com/yyx990803/vue
+85acad3059dff31cad801bbf1076782b4e3a70dd	not-for-merge	'refs/pull/756/merge' of https://github.com/yyx990803/vue
+168aaa9e4eb8caeba430a22f88b76324d3b1aebe	not-for-merge	'refs/pull/757/head' of https://github.com/yyx990803/vue
+1288a2ba189cebb17f70610aa84716c9dbe4ce35	not-for-merge	'refs/pull/757/merge' of https://github.com/yyx990803/vue
+570d3af2a979db127ab9c0791d3fd471765d9bdc	not-for-merge	'refs/pull/762/head' of https://github.com/yyx990803/vue
+79d12ad0af5555a9ff05e5fb720c21978eba8018	not-for-merge	'refs/pull/764/head' of https://github.com/yyx990803/vue
+4bd07740238fff985568dfc1ad3ac55474fea0ee	not-for-merge	'refs/pull/764/merge' of https://github.com/yyx990803/vue
+0f4bfb08aea437b5d6dc6721711434a2120c5f97	not-for-merge	'refs/pull/766/head' of https://github.com/yyx990803/vue
+405e95929cf9cc11613aadbcecc9aa1fc1e0f772	not-for-merge	'refs/pull/767/head' of https://github.com/yyx990803/vue
+aaa008b5a7003a2ea12d621cda72cf7993af165c	not-for-merge	'refs/pull/767/merge' of https://github.com/yyx990803/vue
+405e95929cf9cc11613aadbcecc9aa1fc1e0f772	not-for-merge	'refs/pull/768/head' of https://github.com/yyx990803/vue
+8eed69c6de9041a27f9370adf25d8a7bd3b380ce	not-for-merge	'refs/pull/772/head' of https://github.com/yyx990803/vue
+10d5462f329e1d468ed7c8dda177e7137e0f3cdd	not-for-merge	'refs/pull/772/merge' of https://github.com/yyx990803/vue
+9c652e4439e869858d2daa5bd3d17405eb1ba79b	not-for-merge	'refs/pull/780/head' of https://github.com/yyx990803/vue
+676669cecd9414e6e978a6493a1b1099833108ab	not-for-merge	'refs/pull/783/head' of https://github.com/yyx990803/vue
+a3cdcacad44c6570b605406f74a58faf6421300f	not-for-merge	'refs/pull/787/head' of https://github.com/yyx990803/vue
+9587d1051ebf994cec807c6ae3a39bf215158955	not-for-merge	'refs/pull/808/head' of https://github.com/yyx990803/vue
+4a459e882dbf09c81f6378edcfb7dca4b21339f8	not-for-merge	'refs/pull/834/head' of https://github.com/yyx990803/vue
+bdc84731db52be95e9d1b1652799a45cd0317737	not-for-merge	'refs/pull/834/merge' of https://github.com/yyx990803/vue
+0946939f364d9119daeb3857efb283c8a22dde6c	not-for-merge	'refs/pull/836/head' of https://github.com/yyx990803/vue
+459d780a731fd3bd0e663f78a1a23793054b4d2a	not-for-merge	'refs/pull/836/merge' of https://github.com/yyx990803/vue
+45110f482e6ba6d778b1e94114e1d5f1667e26af	not-for-merge	'refs/pull/839/head' of https://github.com/yyx990803/vue
+6cfdb8e1a92515098fcf7bda1b5fb7e1a32a0f3d	not-for-merge	'refs/pull/839/merge' of https://github.com/yyx990803/vue
+26b5acdc796651f54541e0c60ae58dd4e4a611d7	not-for-merge	'refs/pull/849/head' of https://github.com/yyx990803/vue
+748d8f81ed802d53bd2ccbac6f2276432e173996	not-for-merge	'refs/pull/851/head' of https://github.com/yyx990803/vue
+008a1ecd7b44dff742b9acef4f4b85afadd95f22	not-for-merge	'refs/pull/861/head' of https://github.com/yyx990803/vue
+e4a1cfab77b6789283d64aa224ac9c5c190bbef6	not-for-merge	'refs/pull/881/head' of https://github.com/yyx990803/vue
+45f061d239f59c5e035a0675a4d61f91e6b6b145	not-for-merge	'refs/pull/882/head' of https://github.com/yyx990803/vue
+3b22f700430df60d4369b530ab972a2968084ad7	not-for-merge	'refs/pull/882/merge' of https://github.com/yyx990803/vue
+cf86633b532ea4f42370900647d498ebf90e305f	not-for-merge	'refs/pull/89/head' of https://github.com/yyx990803/vue
+3a2c8e1193a4882ec8537b0613c255b4ee3e8cc5	not-for-merge	'refs/pull/89/merge' of https://github.com/yyx990803/vue
+2333f426133d70ce0ebda62b51e36348426b0be8	not-for-merge	'refs/pull/892/head' of https://github.com/yyx990803/vue
+5a4e1b7e97faaaa83a871b568788eebb59a5f14d	not-for-merge	'refs/pull/893/head' of https://github.com/yyx990803/vue
+b44185480d71ee1403088d19e236e1b1f1a1e25a	not-for-merge	'refs/pull/894/head' of https://github.com/yyx990803/vue
+911839067a4d467631486046ff13cb77f3ab095e	not-for-merge	'refs/pull/894/merge' of https://github.com/yyx990803/vue
+7bb8ef1525009370230d7a569ecc3bbf86656ea2	not-for-merge	'refs/pull/90/head' of https://github.com/yyx990803/vue
+43b40f48c3a639c60bb2ce5ce8db56b211d32547	not-for-merge	'refs/pull/90/merge' of https://github.com/yyx990803/vue
+0249e1e09e8aa219f432c85c2de0df2fdf1ab95e	not-for-merge	'refs/pull/901/head' of https://github.com/yyx990803/vue
+04b1864c820237ea3192e48f23cc2b6dd8d6807b	not-for-merge	'refs/pull/901/merge' of https://github.com/yyx990803/vue
+93837c2310c179fc941c4f7d3089318109358cd2	not-for-merge	'refs/pull/902/head' of https://github.com/yyx990803/vue
+5ff379dfad5dc992ca7e3d1122876dccd7ee3406	not-for-merge	'refs/pull/905/head' of https://github.com/yyx990803/vue
+4dfdbe4c03bb6ef5c64afb195d2a8e0265d56dee	not-for-merge	'refs/pull/91/head' of https://github.com/yyx990803/vue
+6e8d1ced8f88f18c7077b13c8e647b5b48eef2bf	not-for-merge	'refs/pull/92/head' of https://github.com/yyx990803/vue
+7d5637566059270548a6551b486a2744568d5667	not-for-merge	'refs/pull/926/head' of https://github.com/yyx990803/vue
+e3c9363ab73aa0c911e1e6971247e0fe5753762d	not-for-merge	'refs/pull/937/head' of https://github.com/yyx990803/vue
+3f52ccb0e750609c6af325bd8b75c779416a7d8f	not-for-merge	'refs/pull/94/head' of https://github.com/yyx990803/vue
+134fe562332e99b376d584a3a9d8695623aaa7c5	not-for-merge	'refs/pull/94/merge' of https://github.com/yyx990803/vue
+ddd5d5f0550f7d25220c0c1498f797f1dabfebf8	not-for-merge	'refs/pull/982/head' of https://github.com/yyx990803/vue
+b6aafeea74a90c701cb0137781038ade8e8e032c	not-for-merge	'refs/pull/982/merge' of https://github.com/yyx990803/vue
+8b3b8fbd0751c46c7c149383bb4e072be0d01dff	not-for-merge	tag '0.10.0-rc' of https://github.com/yyx990803/vue
+5bc3e30b694dc3b6aeeb87c24f88b9cd7a7259d6	not-for-merge	tag '0.11.0' of https://github.com/yyx990803/vue
+512d265cbd656da5e19cf1d5f1a43f321b6488a5	not-for-merge	tag '0.11.0-rc' of https://github.com/yyx990803/vue
+7e767f953cd542e64b67e0aa25af8c96770d7eb7	not-for-merge	tag '0.11.0-rc2' of https://github.com/yyx990803/vue
+7163a9b63df5ffe898f395fb8bb31f2851d472f6	not-for-merge	tag '0.11.0-rc3' of https://github.com/yyx990803/vue
+0df318c29d7e10bfa8e5c7ca31837af91ff3174c	not-for-merge	tag '0.11.1' of https://github.com/yyx990803/vue
+d257c81a5889d45012f6df39873fba3f8697f0cc	not-for-merge	tag '0.11.10' of https://github.com/yyx990803/vue
+51cfffbdba03b937f0ef8efe40a87521852d601e	not-for-merge	tag '0.11.2' of https://github.com/yyx990803/vue
+fe35b5101fb0bb7fc94025f62b857a1404bffb7d	not-for-merge	tag '0.11.3' of https://github.com/yyx990803/vue
+19e0223f5faa2592b37434e9936f2885a5d9cb2f	not-for-merge	tag '0.11.4' of https://github.com/yyx990803/vue
+a06cd65e1c72beea48485a2a5a91c579c0752fa7	not-for-merge	tag '0.11.5' of https://github.com/yyx990803/vue
+6c3b290bb051e16ce5fc0897638b2eb4abae0214	not-for-merge	tag '0.11.6' of https://github.com/yyx990803/vue
+563b0b965c4c6724729ddfd42598184f13c8b4f7	not-for-merge	tag '0.11.7' of https://github.com/yyx990803/vue
+6c841059d2893d383befeed0caf8090d5f0e8b88	not-for-merge	tag '0.11.8' of https://github.com/yyx990803/vue
+7f7e36bd4a298623d656ca7cab5f23976756de15	not-for-merge	tag '0.11.9' of https://github.com/yyx990803/vue
+66b124b7ecf7916ac2506fb5bd8006858006fb35	not-for-merge	tag '0.12.0' of https://github.com/yyx990803/vue
+0a69a55eee9b3c705dfc8953876d1c6190c2194c	not-for-merge	tag '0.12.0-beta2' of https://github.com/yyx990803/vue
+8f742d5fe3b4e9f1477fadd0f1e1ed86eca0b548	not-for-merge	tag '0.12.0-beta3' of https://github.com/yyx990803/vue
+f3552df2b0bc9777e9bb5c866ffda7e70e6b2fa3	not-for-merge	tag '0.12.0-beta4' of https://github.com/yyx990803/vue
+a39476d72981c014a3cf030fa38ea2fddfbfb23f	not-for-merge	tag '0.12.0-beta5' of https://github.com/yyx990803/vue
+2ed38c9f75a20464e6949f39af079c8643ac8d14	not-for-merge	tag '0.12.0-csp' of https://github.com/yyx990803/vue
+61eaa271c0694cc4cf7296637b55b5481dbd3f98	not-for-merge	tag '0.12.0-rc' of https://github.com/yyx990803/vue
+597fa8be89af8ce4d1939b19a9c47a44daeb506b	not-for-merge	tag '0.12.0-rc2' of https://github.com/yyx990803/vue
+2eedc8d76a6015def406c062221bafe2d74e2508	not-for-merge	tag '0.12.1' of https://github.com/yyx990803/vue
+9aecbfbb9938fd317cfdeab28eb397c0b43fdbc0	not-for-merge	tag '0.12.1-csp' of https://github.com/yyx990803/vue
+e8d82d2840d314970568e7c576b100aed7d0cd07	not-for-merge	tag '0.12.1-csp.1' of https://github.com/yyx990803/vue
+b3c529992e322daa4c3a486137730078edd22ffd	not-for-merge	tag '0.12.1-csp.2' of https://github.com/yyx990803/vue
+54f860d63fb4bf7d664fdaae74c5678262c715a7	not-for-merge	tag '0.12.2' of https://github.com/yyx990803/vue
+ecc883131c5838562c7f8a853ed945dd431e5e7b	not-for-merge	tag '0.12.3' of https://github.com/yyx990803/vue
+e614d9c3bbc0d81018fccd266f64195711b72910	not-for-merge	tag '0.12.4' of https://github.com/yyx990803/vue
+eb646ecdbffd88e03d70a33f121ad3ff732ccce8	not-for-merge	tag '0.12.5' of https://github.com/yyx990803/vue
+8bade9382a95a8d59764bb701d50e34253a09365	not-for-merge	tag '0.12.6' of https://github.com/yyx990803/vue
+5eb9a5923a30f84ba07a1290761b78b707726c3f	not-for-merge	tag '0.12.6-csp' of https://github.com/yyx990803/vue
+69edc1ae02b230dbda22eeae53a4899fc06dff40	not-for-merge	tag '0.12.7' of https://github.com/yyx990803/vue
+fb8ee54e9d8f730bc1b0161010d88379ad6c85ac	not-for-merge	tag '0.12.7-csp' of https://github.com/yyx990803/vue
+218557cdec830a629252f4a9e2643973dc1f1d2d	not-for-merge	tag '0.6.0' of https://github.com/yyx990803/vue
+cd53688d5364aef64aafc986c02e491f8cf90f82	not-for-merge	tag 'v0.10.0' of https://github.com/yyx990803/vue
+12f1ca2b93176e81c5f208437e1a6af745dd7da9	not-for-merge	tag 'v0.10.1' of https://github.com/yyx990803/vue
+e1ea3fc840f1b6c9ebecced35abcb48074b08c4b	not-for-merge	tag 'v0.10.2' of https://github.com/yyx990803/vue
+1eea0df8981a8933976b08e716d84da2b8453996	not-for-merge	tag 'v0.10.3' of https://github.com/yyx990803/vue
+d3758fc7e17a0e115092c5fc89264ec7fff7ea39	not-for-merge	tag 'v0.10.4' of https://github.com/yyx990803/vue
+fe996b388971b014279b1f90df26ef95d8b00f05	not-for-merge	tag 'v0.10.5' of https://github.com/yyx990803/vue
+cf37f7efd6d63c0aa46b50c624816e645ddd7edd	not-for-merge	tag 'v0.10.6' of https://github.com/yyx990803/vue
+f4861ca9905a170b9a4b185e8a2038dc7c11c58e	not-for-merge	tag 'v0.7.0' of https://github.com/yyx990803/vue
+590a7ee55b655f166ecdf8e7a5e22dab7a9e6dd7	not-for-merge	tag 'v0.7.1' of https://github.com/yyx990803/vue
+e78fb82212ac229c91fc8b1f09a84b24f577541a	not-for-merge	tag 'v0.7.2' of https://github.com/yyx990803/vue
+dcc839a4314de8825f7087f00c4e40ea2d22b46f	not-for-merge	tag 'v0.7.3' of https://github.com/yyx990803/vue
+8c7ee32caa3b118e66e33bf6128218127283334f	not-for-merge	tag 'v0.7.4' of https://github.com/yyx990803/vue
+eb111394f731519466e9230d9e92f2bd5687656d	not-for-merge	tag 'v0.7.5' of https://github.com/yyx990803/vue
+bf5c14b9e69e1069caebabe03feef565da065fc7	not-for-merge	tag 'v0.7.6' of https://github.com/yyx990803/vue
+882c16c76ec0790ccf60856385ea493c9369cd63	not-for-merge	tag 'v0.8.0' of https://github.com/yyx990803/vue
+f4a691a3ba3f30eefd531a4f47d9653757f10b3c	not-for-merge	tag 'v0.8.1' of https://github.com/yyx990803/vue
+ad60407d11b2dac95201c626b173eb980153e632	not-for-merge	tag 'v0.8.2' of https://github.com/yyx990803/vue
+4fdeba555f82a01cdc546610e002eb5c9695d347	not-for-merge	tag 'v0.8.3' of https://github.com/yyx990803/vue
+c71c6a4dde32c41aa388f6edebcd62b04f1df2c6	not-for-merge	tag 'v0.8.4' of https://github.com/yyx990803/vue
+cc5f98a91b4016d732227761533cc9f270c204d6	not-for-merge	tag 'v0.8.5' of https://github.com/yyx990803/vue
+eaa6b91f1463d63429b70344cb4c454f6cbd4694	not-for-merge	tag 'v0.8.6' of https://github.com/yyx990803/vue
+9bfb8b87b93327965b934b3077d08b539c177a28	not-for-merge	tag 'v0.8.7' of https://github.com/yyx990803/vue
+a701b9f402f33bc14f7847253ac919664f6b1da8	not-for-merge	tag 'v0.8.8' of https://github.com/yyx990803/vue
+fbaf56933a4844f251e28a1e2784b67ec5cb9afd	not-for-merge	tag 'v0.9.0' of https://github.com/yyx990803/vue
+15c3c8b9c56e9da11aa82809ac782a8c50a06a5a	not-for-merge	tag 'v0.9.1' of https://github.com/yyx990803/vue
+918797c7933a5dd2ff4b031c7cf7301e9751d7d9	not-for-merge	tag 'v0.9.2' of https://github.com/yyx990803/vue
+e1aad8fc83cd923703dc2bfa335b32879aa7be44	not-for-merge	tag 'v0.9.3' of https://github.com/yyx990803/vue

@@ -1,0 +1,11 @@
+App load time: 1070ms
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: channel closed
+    at process.target.send (internal/child_process.js:509:16)
+    at process.<anonymous> (/home/cin_chalic/.atom/packages/atom-ternjs/lib/atom-ternjs-server-worker.js:108:11)
+    at emitOne (events.js:77:13)
+    at process.emit (events.js:169:7)
+    at process._fatalException (node.js:247:26)

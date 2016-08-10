@@ -1,0 +1,32 @@
+'.source.js':
+  'Controller\'s Unit Test':
+    'prefix': '_utc'
+    'body': """
+    (function () {
+
+    'use strict';
+
+    describe("${0:name}Controller", function () {
+
+        beforeEach(function () {
+            // always load nova module
+            module('${1:module name}');
+        });
+
+        var _ctrl, _scope;
+
+        beforeEach(inject(function ($controller, $rootScope) {
+
+            // generate a valid scope
+            _scope = $rootScope.$new();
+            // inject mocked dependencies for this controller
+            _ctrl = $controller('${0:name}Controller');
+
+        }));
+
+    });
+
+})();
+
+
+    """

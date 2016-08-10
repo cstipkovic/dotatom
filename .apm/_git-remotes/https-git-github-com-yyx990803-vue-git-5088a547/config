@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://git@github.com/yyx990803/vue.git
+	fetch = +refs/*:refs/*
+	mirror = true

@@ -1,0 +1,13 @@
+var _atomMochaTestRunner = require('atom-mocha-test-runner');
+
+var _chai = require('chai');
+
+'use babel';
+
+global.expect = _chai.expect;
+
+module.exports = (0, _atomMochaTestRunner.createRunner)({
+  testSuffixes: ['spec.js', 'spec.coffee']
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Npbl9jaGFsaWMvLmF0b20vcGFja2FnZXMvaW5kZW50YXRpb24taW5kaWNhdG9yL3NwZWMvcnVubmVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJtQ0FFMkIsd0JBQXdCOztvQkFDOUIsTUFBTTs7QUFIM0IsV0FBVyxDQUFBOztBQUlYLE1BQU0sQ0FBQyxNQUFNLGVBQVMsQ0FBQTs7QUFFdEIsTUFBTSxDQUFDLE9BQU8sR0FBRyx1Q0FBYTtBQUM1QixjQUFZLEVBQUUsQ0FBQyxTQUFTLEVBQUUsYUFBYSxDQUFDO0NBQ3pDLENBQUMsQ0FBQSIsImZpbGUiOiIvaG9tZS9jaW5fY2hhbGljLy5hdG9tL3BhY2thZ2VzL2luZGVudGF0aW9uLWluZGljYXRvci9zcGVjL3J1bm5lci5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2UgYmFiZWwnXG5cbmltcG9ydCB7Y3JlYXRlUnVubmVyfSBmcm9tICdhdG9tLW1vY2hhLXRlc3QtcnVubmVyJ1xuaW1wb3J0IHtleHBlY3R9IGZyb20gJ2NoYWknXG5nbG9iYWwuZXhwZWN0ID0gZXhwZWN0XG5cbm1vZHVsZS5leHBvcnRzID0gY3JlYXRlUnVubmVyKHtcbiAgdGVzdFN1ZmZpeGVzOiBbJ3NwZWMuanMnLCAnc3BlYy5jb2ZmZWUnXVxufSlcbiJdfQ==
+//# sourceURL=/home/cin_chalic/.atom/packages/indentation-indicator/spec/runner.js

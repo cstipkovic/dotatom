@@ -1,0 +1,26 @@
+/** @babel */
+/* eslint-env jasmine, atomtest */
+
+/*
+	This file contains an informational output for the developer, help getting a
+	performance-awareness.
+*/
+
+describe('editorconfig', function () {
+	beforeEach(function () {
+		waitsForPromise(function () {
+			return atom.packages.activatePackage('editorconfig');
+		});
+	});
+
+	it('should have been loaded fine', function () {
+		var pack = atom.packages.getLoadedPackage('editorconfig');
+
+		expect(pack).not.toBeUndefined();
+		if (typeof pack !== 'undefined') {
+			console.info('The package took ' + pack.loadTime + 'ms to load and ' + pack.activateTime + 'ms to activate.');
+		}
+	});
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Npbl9jaGFsaWMvLmF0b20vcGFja2FnZXMvZWRpdG9yY29uZmlnL3NwZWMvYmVuY2htYXJrLXNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFRQSxRQUFRLENBQUMsY0FBYyxFQUFFLFlBQU07QUFDOUIsV0FBVSxDQUFDLFlBQU07QUFDaEIsaUJBQWUsQ0FBQztVQUFNLElBQUksQ0FBQyxRQUFRLENBQUMsZUFBZSxDQUFDLGNBQWMsQ0FBQztHQUFBLENBQUMsQ0FBQztFQUNyRSxDQUFDLENBQUM7O0FBRUgsR0FBRSxDQUFDLDhCQUE4QixFQUFFLFlBQU07QUFDeEMsTUFBTSxJQUFJLEdBQUcsSUFBSSxDQUFDLFFBQVEsQ0FBQyxnQkFBZ0IsQ0FBQyxjQUFjLENBQUMsQ0FBQzs7QUFFNUQsUUFBTSxDQUFDLElBQUksQ0FBQyxDQUFDLEdBQUcsQ0FBQyxhQUFhLEVBQUUsQ0FBQztBQUNqQyxNQUFJLE9BQU8sSUFBSSxLQUFLLFdBQVcsRUFBRTtBQUNoQyxVQUFPLENBQUMsSUFBSSx1QkFBcUIsSUFBSSxDQUFDLFFBQVEsdUJBQzNDLElBQUksQ0FBQyxZQUFZLHFCQUFrQixDQUFDO0dBQ3ZDO0VBQ0QsQ0FBQyxDQUFDO0NBQ0gsQ0FBQyxDQUFDIiwiZmlsZSI6Ii9ob21lL2Npbl9jaGFsaWMvLmF0b20vcGFja2FnZXMvZWRpdG9yY29uZmlnL3NwZWMvYmVuY2htYXJrLXNwZWMuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiogQGJhYmVsICovXG4vKiBlc2xpbnQtZW52IGphc21pbmUsIGF0b210ZXN0ICovXG5cbi8qXG5cdFRoaXMgZmlsZSBjb250YWlucyBhbiBpbmZvcm1hdGlvbmFsIG91dHB1dCBmb3IgdGhlIGRldmVsb3BlciwgaGVscCBnZXR0aW5nIGFcblx0cGVyZm9ybWFuY2UtYXdhcmVuZXNzLlxuKi9cblxuZGVzY3JpYmUoJ2VkaXRvcmNvbmZpZycsICgpID0+IHtcblx0YmVmb3JlRWFjaCgoKSA9PiB7XG5cdFx0d2FpdHNGb3JQcm9taXNlKCgpID0+IGF0b20ucGFja2FnZXMuYWN0aXZhdGVQYWNrYWdlKCdlZGl0b3Jjb25maWcnKSk7XG5cdH0pO1xuXG5cdGl0KCdzaG91bGQgaGF2ZSBiZWVuIGxvYWRlZCBmaW5lJywgKCkgPT4ge1xuXHRcdGNvbnN0IHBhY2sgPSBhdG9tLnBhY2thZ2VzLmdldExvYWRlZFBhY2thZ2UoJ2VkaXRvcmNvbmZpZycpO1xuXG5cdFx0ZXhwZWN0KHBhY2spLm5vdC50b0JlVW5kZWZpbmVkKCk7XG5cdFx0aWYgKHR5cGVvZiBwYWNrICE9PSAndW5kZWZpbmVkJykge1xuXHRcdFx0Y29uc29sZS5pbmZvKGBUaGUgcGFja2FnZSB0b29rICR7cGFjay5sb2FkVGltZX1tcyB0byBsb2FkIFxcXG5hbmQgJHtwYWNrLmFjdGl2YXRlVGltZX1tcyB0byBhY3RpdmF0ZS5gKTtcblx0XHR9XG5cdH0pO1xufSk7XG4iXX0=
+//# sourceURL=/home/cin_chalic/.atom/packages/editorconfig/spec/benchmark-spec.js

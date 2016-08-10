@@ -1,0 +1,34 @@
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+/** @babel */
+/* eslint-env jasmine, atomtest */
+
+/*
+  This file contains verifying specs for:
+  https://github.com/sindresorhus/atom-editorconfig/issues/69
+*/
+
+var _path = require('path');
+
+var _path2 = _interopRequireDefault(_path);
+
+var projectRoot = _path2['default'].join(__dirname, 'fixtures');
+var filePath = _path2['default'].join(projectRoot, 'iss69.txt');
+
+describe('when opening any file', function () {
+	var textEditor = null;
+
+	beforeEach(function () {
+		waitsForPromise(function () {
+			return Promise.all([atom.packages.activatePackage('editorconfig'), atom.workspace.open(filePath)]).then(function (results) {
+				textEditor = results[1];
+			});
+		});
+	});
+
+	it('shouldn\'t being changed without any action', function () {
+		expect(textEditor.isModified()).toBeFalsy();
+	});
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Npbl9jaGFsaWMvLmF0b20vcGFja2FnZXMvZWRpdG9yY29uZmlnL3NwZWMvaXNzNjktc3BlYy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O29CQVFpQixNQUFNOzs7O0FBRXZCLElBQU0sV0FBVyxHQUFHLGtCQUFLLElBQUksQ0FBQyxTQUFTLEVBQUUsVUFBVSxDQUFDLENBQUM7QUFDckQsSUFBTSxRQUFRLEdBQUcsa0JBQUssSUFBSSxDQUFDLFdBQVcsRUFBRSxXQUFXLENBQUMsQ0FBQzs7QUFFckQsUUFBUSxDQUFDLHVCQUF1QixFQUFFLFlBQU07QUFDdkMsS0FBSSxVQUFVLEdBQUcsSUFBSSxDQUFDOztBQUV0QixXQUFVLENBQUMsWUFBTTtBQUNoQixpQkFBZSxDQUFDO1VBQ2YsT0FBTyxDQUFDLEdBQUcsQ0FBQyxDQUNYLElBQUksQ0FBQyxRQUFRLENBQUMsZUFBZSxDQUFDLGNBQWMsQ0FBQyxFQUM3QyxJQUFJLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxRQUFRLENBQUMsQ0FDN0IsQ0FBQyxDQUFDLElBQUksQ0FBQyxVQUFBLE9BQU8sRUFBSTtBQUNsQixjQUFVLEdBQUcsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDO0lBQ3hCLENBQUM7R0FBQSxDQUNGLENBQUM7RUFDRixDQUFDLENBQUM7O0FBRUgsR0FBRSxDQUFDLDZDQUE2QyxFQUFFLFlBQU07QUFDdkQsUUFBTSxDQUFDLFVBQVUsQ0FBQyxVQUFVLEVBQUUsQ0FBQyxDQUFDLFNBQVMsRUFBRSxDQUFDO0VBQzVDLENBQUMsQ0FBQztDQUNILENBQUMsQ0FBQyIsImZpbGUiOiIvaG9tZS9jaW5fY2hhbGljLy5hdG9tL3BhY2thZ2VzL2VkaXRvcmNvbmZpZy9zcGVjL2lzczY5LXNwZWMuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiogQGJhYmVsICovXG4vKiBlc2xpbnQtZW52IGphc21pbmUsIGF0b210ZXN0ICovXG5cbi8qXG4gIFRoaXMgZmlsZSBjb250YWlucyB2ZXJpZnlpbmcgc3BlY3MgZm9yOlxuICBodHRwczovL2dpdGh1Yi5jb20vc2luZHJlc29yaHVzL2F0b20tZWRpdG9yY29uZmlnL2lzc3Vlcy82OVxuKi9cblxuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5cbmNvbnN0IHByb2plY3RSb290ID0gcGF0aC5qb2luKF9fZGlybmFtZSwgJ2ZpeHR1cmVzJyk7XG5jb25zdCBmaWxlUGF0aCA9IHBhdGguam9pbihwcm9qZWN0Um9vdCwgJ2lzczY5LnR4dCcpO1xuXG5kZXNjcmliZSgnd2hlbiBvcGVuaW5nIGFueSBmaWxlJywgKCkgPT4ge1xuXHRsZXQgdGV4dEVkaXRvciA9IG51bGw7XG5cblx0YmVmb3JlRWFjaCgoKSA9PiB7XG5cdFx0d2FpdHNGb3JQcm9taXNlKCgpID0+XG5cdFx0XHRQcm9taXNlLmFsbChbXG5cdFx0XHRcdGF0b20ucGFja2FnZXMuYWN0aXZhdGVQYWNrYWdlKCdlZGl0b3Jjb25maWcnKSxcblx0XHRcdFx0YXRvbS53b3Jrc3BhY2Uub3BlbihmaWxlUGF0aClcblx0XHRcdF0pLnRoZW4ocmVzdWx0cyA9PiB7XG5cdFx0XHRcdHRleHRFZGl0b3IgPSByZXN1bHRzWzFdO1xuXHRcdFx0fSlcblx0XHQpO1xuXHR9KTtcblxuXHRpdCgnc2hvdWxkblxcJ3QgYmVpbmcgY2hhbmdlZCB3aXRob3V0IGFueSBhY3Rpb24nLCAoKSA9PiB7XG5cdFx0ZXhwZWN0KHRleHRFZGl0b3IuaXNNb2RpZmllZCgpKS50b0JlRmFsc3koKTtcblx0fSk7XG59KTtcbiJdfQ==
+//# sourceURL=/home/cin_chalic/.atom/packages/editorconfig/spec/iss69-spec.js
